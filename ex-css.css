@@ -1,0 +1,409 @@
+.BrandSection {
+    padding: 10px 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.BrandSection ul {
+    display: inline;
+    text-align: center;
+}
+
+.BrandSection ul li {
+    width: 100px;
+    height: 110px;
+    margin: 0px 18px;
+    display: inline-block;
+}
+
+.BrandSection ul li a img {
+    width: 80px;
+    background: #ffe3e3;
+    border-radius: 50px;
+    padding: 6px;
+    border: 1px solid #fdcde5;
+}
+
+#HomeMainBanner {
+    background: #ff1a8c14;
+    padding: 10px 0 0 0;
+}
+
+.Gallery1 {
+    padding: 10px 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Gallery1 ul {
+    display: inline;
+    text-align: center;
+    padding: 0;
+}
+
+.Gallery1 ul li {
+    width: 18.9%;
+    height: auto;
+    margin: 20px 5px 0;
+    display: inline-block;
+    border: 1px solid #fdcde5;
+    border-radius: 15px;
+}
+
+.Gallery1 ul li a img {
+    width: 100%;
+    background: #ffe3e3;
+    border-radius: 15px 15px 0 0;
+}
+
+.Gallery1 ul li a strong {
+    width: 100%;
+    padding: 10px 10px 0;
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.Gallery1 ul li a span {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 16px;
+    float: left;
+    text-align: left;
+    color: #777;
+}
+
+.OffersSection {
+    padding: 10px 0px;
+}
+
+.OffersSection h2 {
+    font-size: 24px;
+    color: #000;
+    margin: 10px 10px 0;
+}
+
+.OffersSection ul {
+    display: inline-block;
+    padding: 0px;
+    margin: 0;
+}
+
+.OffersSection ul li {
+    width: 31%;
+    padding: 0px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid #fdcde5;
+}
+
+.OffersSection ul li a {
+    overflow: hidden;
+}
+
+.OffersSection ul li a img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+.OffersSection1 {
+    padding: 10px 0px 30px;
+}
+
+.OffersSection1 h2 {
+    font-size: 24px;
+    color: #000;
+    margin: 10px 10px 0;
+}
+
+.OffersSection1 ul {
+    display: inline-block;
+    padding: 0px;
+}
+
+.OffersSection1 ul li {
+    width: 15.5%;
+    padding: 0px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+}
+
+.OffersSection1 ul li a {
+    overflow: hidden;
+}
+
+.OffersSection1 ul li a img {
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid #fdcde5;
+}
+
+.OffersSection1 ul li p {
+    width: 90%;
+    text-align: center;
+    background: #ff1a8c;
+    padding: 7px 0;
+    margin: -13px 5%;
+    z-index: 9;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 10px 0;
+    color: #fff;
+}
+
+.FirstUser {
+    padding: 40px 10px;
+}
+
+.FirstUser>h2 {
+    font-size: 24px;
+    color: #000;
+}
+
+.UserCouponWeb {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.UserCouponMob{display: none;}
+
+.OffersSection2 {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.OffersSection2 h2 {
+    font-size: 24px;
+    color: #000;
+    text-align: left;
+    margin: 10px 10px 0;
+}
+
+.OffersSection2 ul {
+    display: inline-block;
+    padding: 0px;
+    margin: 0;
+}
+
+.OffersSection2 ul li {
+    width: 18%;
+    padding: 0px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #fdcde5;
+}
+
+.OffersSection2 ul li a {
+    overflow: hidden;
+}
+
+.OffersSection2 ul li a img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.OffersSection2 ul li p {
+    width: 100%;
+    text-align: center;
+    background: #ff97cb9c;
+    margin: -40px 0;
+    z-index: 9;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 0px 0px 10px 10px;
+    color: #000;
+    height: 40px;
+    padding: 0;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+
+
+
+.OffersSection3 {
+    padding: 10px 0px 60px;
+}
+
+.OffersSection3 h2 {
+    font-size: 24px;
+    color: #000;
+    margin: 20px 10px 0;
+}
+
+.OffersSection3 ul {
+    display: inline-block;
+    padding: 0px;
+}
+
+.OffersSection3 ul li {
+    width: 15.5%;
+    padding: 0px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+}
+
+.OffersSection3 ul li a {
+    overflow: hidden;
+}
+
+.OffersSection3 ul li a img {
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid #fdcde5;
+}
+
+.OffersSection3 ul li p {
+    width: 90%;
+    text-align: center;
+    background: #ff1a8c;
+    padding: 3px 0;
+    margin: -13px 5%;
+    z-index: 9;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 30px 0;
+    color: #fff;
+}
+
+.HomeBanner img {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#HomeMainBanner1 {
+    margin: 20px 0px;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .OffersSection h2,
+    .OffersSection1 h2,
+    .OffersSection2 h2 {
+        font-size: 22px !important;
+        color: #000 !important;
+        margin: 10px 10px 10px !important;
+    }
+
+    .Gallery1 ul li {
+        width: 48% !important;
+        margin: 10px 2px 0 !important;
+    }
+
+    .Gallery1 ul li a strong {
+        font-size: 16px;
+    }
+
+    .Gallery1 ul li a span {
+        padding: 0px 10px 5px !important;
+        font-size: 16px !important;
+    }
+
+    .OffersSection ul {
+        text-align: center;
+    }
+
+    .OffersSection ul li {
+        width: 98% !important;
+        margin: 5px !important;
+    }
+
+    .OffersSection1 ul li {
+        width: 44% !important;
+        padding: 0px !important;
+        margin: 15px 9px 50px !important;
+    }
+
+    .OffersSection1 ul li a img {
+        width: 100%;
+        border-radius: 50%;
+        border: 1px solid #fdcde5;
+    }
+
+    .OffersSection1 ul li p {
+        width: 90% !important;
+        text-align: center;
+        padding: 2px 6px;
+        margin: 2px 5%;
+        border-radius: 15px;
+        color: #fff;
+        font-size: 13px;
+        height: 30px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 13px;
+    }
+
+    .OffersSection2 ul li {
+        width: 47% !important;
+        margin: 5px 3px !important;
+    }
+
+    .OffersSection2 ul li p {
+        margin: -50px 0;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    .OffersSection3 ul li {
+        width: 46.5%;
+        padding: 0px;
+        margin: 20px 5px;
+    }
+
+    .BrandSection ul li {
+        width: 19% !important;
+        height: 102px !important;
+        margin: 0px 10px !important;
+        display: inline;
+        float: left !important;
+    }
+
+    .BrandSection ul li a img {
+        width: 66px;
+        background: #ff1a8c14;
+        border-radius: 50px;
+        padding: 4px;
+        border: 1px solid #fdcde5;
+    }
+
+    .BrandSection ul li a span {
+        font-size: 11px;
+    }
+
+    .FirstUser {
+        padding: 10px 10px 30px;
+    }
+
+    .UserCouponWeb{
+        display:none !important;
+    }
+    .UserCouponMob{
+        display: block !important;
+        display: block !important;
+        border-radius: 10px;
+        border: 1px solid #fdcde5;
+    }
+    .OffersSection3 ul li p {
+        padding: 4px 0;
+        margin: 1px 5%;
+        border-radius: 30px 0;
+        font-size: 14px;
+    }
+
+}
