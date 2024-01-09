@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IHCL | Home</title>
+  <title>IHCL | Services</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="shortcut icon" href="#" type="image/x-icon">
@@ -39,7 +39,7 @@
       });
 
       //Owl Slider
-      $("#ServicesSlider").owlCarousel({
+      $("#serChoose").owlCarousel({
         loop: true,
         autoplay: true,
         autoplayTimeout: 7000,
@@ -48,7 +48,7 @@
         touchDrag: true,
         pullDrag: true,
         dots: false,
-        items: 4,
+        items: 3,
         navSpeed: 7000,
         navigation: true,
         navigationText: ["<img src='img/arrow-left1.png'>", "<img src='img/arrow-right1.png'>"],
@@ -60,7 +60,7 @@
             items: 1
           },
           1000: {
-            items: 4
+            items: 3
           }
         },
         nav: true
@@ -160,170 +160,69 @@
   </section>
 
 
-  <section id="from-blog" class="servicesBox">
+  <section class="serChoose">
     <div class="container">
       <div class="row wow fdeInUp sliderOwn1">
-        <div class="col-md-3">
-          <div class="enquiryform">
-            <div class="FormHeader">
-              <h4>Hotal Booking Now</h4>
-              <span>Online Reservation</span>
+        <h2>Choose as ?</h2>
+        <div id="serChoose">
+          <div class="item">
+            <div class="col-md-12 wow fadeInLeft box20 serChooseBox">
+              <center><img src="img/serChoose1.jpg" class="img-responsive"></center>
+              <header class="entry-header">
+                <h4>Unique And Memorable Stay</h4>
+                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                </h5>
+              </header>
             </div>
-            <div class="FormContent">
-              <form>
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <select>
-                  <option value="Arrival">Arrival</option>
-                  <option value="Arrival">Arrival</option>
-                </select>
-                <select>
-                  <option value="Room Type">Room Type</option>
-                  <option value="Room Type">Room Type</option>
-                </select>
-                <select>
-                  <option value="Adults">Adults</option>
-                  <option value="Adults">Adults</option>
-                </select>
-                <button type="button" class="FormSubmit">Submit</button>
-              </form>
+          </div>
+          <div class="item">
+            <div class="col-md-12 wow fadeInLeft box20 serChooseBox">
+              <center><img src="img/serChoose2.jpg" class="img-responsive"></center>
+              <header class="entry-header">
+                <h4>Unique And Memorable Stay</h4>
+                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                </h5>
+              </header>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-md-12 wow fadeInLeft box20 serChooseBox">
+              <center><img src="img/serChoose3.jpg" class="img-responsive"></center>
+              <header class="entry-header">
+                <h4>Unique And Memorable Stay</h4>
+                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                </h5>
+              </header>
             </div>
           </div>
         </div>
-        <div class="col-md-9">
-          <div class="WhatWeDo">
-            <h2>What We Do</h2>
-            <h6>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
-            </h6>
-          </div>
-          <div id="ServicesSlider">
-            <div class="item">
-              <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="#">
-                  <center><img src="img/bedroom.jpg" class="img-responsive"></center>
-                </a>
-                <header class="entry-header"><a href="#">
-                    <h5>Bedrooms</h5>
-                  </a>
-                </header>
-              </article>
-            </div>
-            <div class="item">
-              <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="#">
-                  <center><img src="img/drink.jpg" class="img-responsive"></center>
-                </a>
-                <header class="entry-header"><a href="#">
-                    <h5>Dine & Drink</h5>
-                  </a>
-                </header>
-              </article>
-            </div>
-            <div class="item">
-              <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="#">
-                  <center><img src="img/breakfast.jpg" class="img-responsive"></center>
-                </a>
-                <header class="entry-header"><a href="#">
-                    <h5>Breakfast</h5>
-                  </a>
-                </header>
-              </article>
-            </div>
-            <div class="item">
-              <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="#">
-                  <center><img src="img/bonfire.gif" class="img-responsive"></center>
-                </a>
-                <header class="entry-header"><a href="#">
-                    <h5>Bonfire</h5>
-                  </a>
-                </header>
-              </article>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
 
 
-  <section class="foodSection">
+  <section class="serChooseAbout">
     <div class="container">
-      <h5 class="wow fadeInUp">We Are Supreme</h5>
-      <div class="col-md-5 foodSectionRight">
-        <img src="img/supreme.jpg" alt="" title="" class="wow fadeInLeft" />
-      </div>
-      <div class="col-md-7 foodSectionLeft wow fadeInRight">
-        <h5>
-          Best Foods
-          <img src="img/foodIcon.png" class="foodIcon wow fadeInLeft">
-        </h5>
-        <h6>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-          industry's standard dummy...
-        </h6>
-        <ul class="spofferlist">
-          <li>
-            <img src="img/check-mark.png" alt="" title="" />
-            Decorated Room roper Air Condition.
-          </li>
-          <li>
-            <img src="img/check-mark.png" alt="" title="" />
-            School Gym, Spa Facilities
-          </li>
-          <li>
-            <img src="img/check-mark.png" alt="" title="" />
-            24 Hour Room Services
-          </li>
-        </ul>
-        <button type="button" class="buttonSub">Details</button>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="from-blog" class="servicesBox1">
-    <div class="container">
-      <div class="row wow fdeInUp sliderOwn2">
-        <article class="col-md-4 wow fadeInUp box15 wow fadeInLeft">
-          <header class="entry-header">
-            <h5>Special Offers</h5>
-          </header>
-          <h6>
+      <div class="row wow fdeInUp sliderOwn1">
+        <div class="col-md-8">
+          <h2>
+            About <br />
+            Shrya Hotal & Resort
+          </h2>
+          <h5>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy...
-          </h6>
-          <ul class="spofferlist">
-            <li>
-              <img src="img/check-mark.png" alt="" title="" />
-              Decorated Room roper Air Condition.
-            </li>
-            <li>
-              <img src="img/check-mark.png" alt="" title="" />
-              School Gym, Spa Facilities
-            </li>
-            <li>
-              <img src="img/check-mark.png" alt="" title="" />
-              24 Hour Room Services
-            </li>
-            <li>
-              <img src="img/check-mark.png" alt="" title="" />
-              1500 Per Night
-            </li>
-          </ul>
-          <button type="button" class="buttonSub">Submit</button>
-        </article>
-        <div class="col-md-8 padding0">
-          <img src="img/special-offers.jpg" alt="" title="" class="wow fadeInRight imgservices" />
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.
+          </h5>
+          <button type="button" class="serChooseAboutBtn">Book Now</button>
+        </div>
+        <div class="col-md-4">
+            <img src="img/serChooseAbout.jpg">
         </div>
       </div>
     </div>
   </section>
+
 
 
   <footer class="bottom-footer">
