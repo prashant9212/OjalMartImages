@@ -1647,45 +1647,7 @@ text-align: left !important;
     left:0 !important;
 }
 
-.enquiryform {
-    background-color: #fff;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 3px 5px 18px 4px #0000003b;
-    width: 85%;
-    margin: -110px auto 40px;
-}
-.servicesBox img {
-    width: 100% !important;
-}
-.foodSectionRight {
-    float: left;
-    position: relative;
-    width: 100%;
-    padding: 0;
-}
-.foodSectionLeft {
-    float: right;
-    padding: 40px 20px 15px;
-    border: 2px solid #1f262e;
-    border-radius: 5px;
-    width: 100%;
-}
-.foodSectionRight img {
-    position: relative;
-    z-index: 999;
-    padding: 13px 0;
-}
-.foodSectionLeft {
-    float: right;
-    padding: 40px 20px 15px;
-    border: 2px solid #1f262e;
-    border-radius: 5px;
-    width: 100%;
-}
-.servicesBox1 img{
-    width: 95%;
-}
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -2504,8 +2466,32 @@ text-align: left !important;
 .box16, .box15 {
     padding: 0px 40px;
 }
-
-
+.enquiryform {
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 3px 5px 18px 4px #0000003b;
+    width: 85%;
+    margin: -110px auto 40px;
+}
+.servicesBox img {
+    width: 100% !important;
+}
+.imgservices{
+    width: 90% !important;
+}
+.foodSectionRight {
+    width: 100%;
+    padding: 0px;
+}
+.foodSectionRight img {
+    padding: 15px 0;
+    position: relative;
+}
+.foodSectionLeft {
+    width: 100%;
+    padding: 40px 40px 15px;
+}
 
 
 }
