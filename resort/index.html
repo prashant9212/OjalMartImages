@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IHCL | Home</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+  <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+  <link href="css/animate.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link
+    href='https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900|Lato:300,400|Crimson+Text:400,400i,600'
+    rel='stylesheet' type='text/css'>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    jQuery(document).ready(function ($) {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+      });
+
+      //Owl Slider
+      $("#ServicesSlider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 7000,
+        autoplayHoverPause: true,
+        mouseDrag: true,
+        touchDrag: true,
+        pullDrag: true,
+        dots: false,
+        items: 4,
+        navSpeed: 7000,
+        navigation: true,
+        navigationText: ["<img src='img/arrow-left1.png'>", "<img src='img/arrow-right1.png'>"],
+        responsive: {
+          0: {
+            items: 1
+          },
+          767: {
+            items: 1
+          },
+          1000: {
+            items: 4
+          }
+        },
+        nav: true
+      });
+      $("#InsightsSlider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 7000,
+        autoplayHoverPause: true,
+        mouseDrag: true,
+        touchDrag: true,
+        pullDrag: true,
+        dots: false,
+        items: 2,
+        navSpeed: 7000,
+        navigation: true,
+        navigationText: ["<img src='img/arrow-left1.png'>", "<img src='img/arrow-right1.png'>"],
+        responsive: {
+          0: {
+            items: 1
+          },
+          767: {
+            items: 1
+          },
+          1000: {
+            items: 3
+          }
+        },
+        nav: true
+      });
+      //Owl Slider
+
+
+    });
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "300px";
+    }
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    new WOW().init();
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll('.sidebar .nav-link').forEach(function (element) {
+
+        element.addEventListener('click', function (e) {
+
+          let nextEl = element.nextElementSibling;
+          let parentEl = element.parentElement;
+
+          if (nextEl) {
+            e.preventDefault();
+            let mycollapse = new bootstrap.Collapse(nextEl);
+
+            if (nextEl.classList.contains('show')) {
+              mycollapse.hide();
+            } else {
+              mycollapse.show();
+              // find other submenus with class=show
+              var opened_submenu = parentEl.parentElement.querySelector('.submenu.show');
+              // if it exists, then close all of them
+              if (opened_submenu) {
+                new bootstrap.Collapse(opened_submenu);
+              }
+            }
+          }
+        }); // addEventListener
+      }) // forEach
+    }); 
+  </script>
+</head>
+
+<body class="home">
+
+  <!-----sideNav---->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="btn-group">
+      <a href="index.html" class="sideANav MobNavLi">Home</a>
+      <a href="rooms.html" class="sideANav MobNavLi">Rooms</a>
+      <a href="facilities.html" class="sideANav MobNavLi">Facilities</a>
+      <a href="#" class="sideANav MobNavLi">Pages</a>
+      <a href="contact.html" class="sideANav MobNavLi">Contact Us</a>
+    </div>
+  </div>
+  <!-----sideNav---->
+
+  <header id="menutop">
+    <nav id="top-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container NavBoxCon">
+        <div class="col-md-2 MonNavMain">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+            <img src="img/nav.png" class="nav-head mobNav" onclick="openNav()" title="Open Menu">
+          </div>
+        </div>
+
+        <div class="col-md-10">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="search-cart-block">
+              <div class="cart-notify" style="display:none">
+                <a href="#"></a>
+                <img src="img/nav.png" class="nav-head" onclick="openNav()" title="Open Menu">
+              </div>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html" class="page-scroll active-on">Home</a></li>
+              <li><a href="rooms.html">Rooms</a></li>
+              <li><a href="facilities.html">Facilities</a>
+              <li><a href="pages.html">Pages</a>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="#" class="BookNowBtn">Book Now</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home-banner" class="HomeMainBannerBg">
+    <div class="container">
+      <h1 class="wow fadeInUp">Shrey Hotal & Resort</h1>
+    </div>
+  </section>
+
+
+  <section id="from-blog" class="servicesBox">
+    <div class="container">
+      <div class="row wow fdeInUp sliderOwn1">
+        <div class="col-md-3">
+          <div class="enquiryform">
+            <div class="FormHeader">
+              <h4>Hotal Booking Now</h4>
+              <span>Online Reservation</span>
+            </div>
+            <div class="FormContent">
+              <form>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <select>
+                  <option value="Arrival">Arrival</option>
+                  <option value="Arrival">Arrival</option>
+                </select>
+                <select>
+                  <option value="Room Type">Room Type</option>
+                  <option value="Room Type">Room Type</option>
+                </select>
+                <select>
+                  <option value="Adults">Adults</option>
+                  <option value="Adults">Adults</option>
+                </select>
+                <button type="button" class="FormSubmit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="WhatWeDo">
+            <h2>What We Do</h2>
+            <h6>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.
+            </h6>
+          </div>
+          <div id="ServicesSlider">
+            <div class="item">
+              <article class="col-md-12 wow fadeInLeft box20 ">
+                <a href="#">
+                  <center><img src="img/bedroom.jpg" class="img-responsive"></center>
+                </a>
+                <header class="entry-header"><a href="#">
+                    <h5>Bedrooms</h5>
+                  </a>
+                </header>
+              </article>
+            </div>
+            <div class="item">
+              <article class="col-md-12 wow fadeInLeft box20 ">
+                <a href="#">
+                  <center><img src="img/drink.jpg" class="img-responsive"></center>
+                </a>
+                <header class="entry-header"><a href="#">
+                    <h5>Dine & Drink</h5>
+                  </a>
+                </header>
+              </article>
+            </div>
+            <div class="item">
+              <article class="col-md-12 wow fadeInLeft box20 ">
+                <a href="#">
+                  <center><img src="img/breakfast.jpg" class="img-responsive"></center>
+                </a>
+                <header class="entry-header"><a href="#">
+                    <h5>Breakfast</h5>
+                  </a>
+                </header>
+              </article>
+            </div>
+            <div class="item">
+              <article class="col-md-12 wow fadeInLeft box20 ">
+                <a href="#">
+                  <center><img src="img/bonfire.gif" class="img-responsive"></center>
+                </a>
+                <header class="entry-header"><a href="#">
+                    <h5>Bonfire</h5>
+                  </a>
+                </header>
+              </article>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="foodSection">
+    <div class="container">
+      <h5 class="wow fadeInUp">We Are Supreme</h5>
+      <div class="col-md-5 foodSectionRight">
+        <img src="img/supreme.jpg" alt="" title="" class="wow fadeInLeft" />
+      </div>
+      <div class="col-md-7 foodSectionLeft wow fadeInRight">
+        <h5>
+          Best Foods
+          <img src="img/foodIcon.png" class="foodIcon wow fadeInLeft">
+        </h5>
+        <h6>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy...
+        </h6>
+        <ul class="spofferlist">
+          <li>
+            <img src="img/check-mark.png" alt="" title="" />
+            Decorated Room roper Air Condition.
+          </li>
+          <li>
+            <img src="img/check-mark.png" alt="" title="" />
+            School Gym, Spa Facilities
+          </li>
+          <li>
+            <img src="img/check-mark.png" alt="" title="" />
+            24 Hour Room Services
+          </li>
+        </ul>
+        <button type="button" class="buttonSub">Details</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="from-blog" class="servicesBox1">
+    <div class="container">
+      <div class="row wow fdeInUp sliderOwn2">
+        <article class="col-md-4 wow fadeInUp box15 wow fadeInLeft">
+          <header class="entry-header">
+            <h5>Special Offers</h5>
+          </header>
+          <h6>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy...
+          </h6>
+          <ul class="spofferlist">
+            <li>
+              <img src="img/check-mark.png" alt="" title="" />
+              Decorated Room roper Air Condition.
+            </li>
+            <li>
+              <img src="img/check-mark.png" alt="" title="" />
+              School Gym, Spa Facilities
+            </li>
+            <li>
+              <img src="img/check-mark.png" alt="" title="" />
+              24 Hour Room Services
+            </li>
+            <li>
+              <img src="img/check-mark.png" alt="" title="" />
+              1500 Per Night
+            </li>
+          </ul>
+          <button type="button" class="buttonSub">Submit</button>
+        </article>
+        <div class="col-md-8 padding0">
+          <img src="img/special-offers.jpg" alt="" title="" class="wow fadeInRight" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bottom-footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 col-sm-12 col-xs-12  subcribe-block">
+          <h6>About PenIt</h6>
+          <p>
+            sapien quis euismod sodales. Nullam in ipsum nibh. Duis vitae nulla at nisl finibus pharetra. Nunc
+            porttitor
+          </p>
+          <ul class="FooterList">
+            <li><img src="img/FooterIcon1.jpg"></li>
+            <li><img src="img/FooterIcon2.jpg"></li>
+            <li><img src="img/FooterIcon3.jpg"></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-xs-4 root-widget">
+          <h6>Services</h6>
+          <ul>
+            <li><a href="#">Services 1</a></li>
+            <li><a href="#">Services 2</a></li>
+            <li><a href="#">Services 3</a></li>
+            <li><a href="#">Services 4</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-xs-4 root-widget">
+          <h6>Follow with Us</h6>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-4 root-widget">
+          <h6>Contact</h6>
+          <ul>
+            <li><a href="#">hello@nusswp.com</a></li>
+            <li><a href="#">+91-1234567890</a></li>
+            <li><a href="#">929 Border StreetSatellite Beach, FL 32937</a></li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </div>
+    <div class="col-md-12 footerBt">
+      <div class="container">
+        <p class="copyright">Copyright © 2021 by uxper.co</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

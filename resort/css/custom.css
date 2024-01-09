@@ -1,0 +1,2475 @@
+
+a{text-decoration: none !important;}
+.colorBlack{
+    color: #000 !important;
+}
+.colorwhite{
+    color: #fff !important;
+}
+.colorwhite1{
+    color: #fff !important;
+}
+.margin0{margin: 0px !important;}
+.padding0{padding: 0px !important;}
+.width100{width: 100% !important;}
+.bglightblue{
+    background: #eff7fa !important;
+}
+.bgblue{
+    background: #009cff !important;
+}
+.InrHeadBg{
+    background:#3c3e8b !important;
+}
+.InrHeadBg1 {
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%), 0 0 1px 0 rgb(0 0 0 / 5%);
+    padding: 0 0 16px;
+}
+
+.InrHeadBg1 .navbar-nav > li > a {
+    padding: 30px 15px 6px !important;
+    color: #000 !important;
+    font-weight: normal !important;
+}
+
+.InrHeadBg1 .search-cart-block {
+    padding: 0px 0 0 15px;
+    border-left: transparent;
+    margin: 25px 0 0px 10px;
+}
+
+.InrHeadBg1 .on {
+    background-color: #fff !important;
+    padding: 0 !important;
+    position: relative !important;
+}
+.InrHeadBg1 .navbar-fixed-top.on .navbar-brand img {
+    width: auto !important;
+}
+
+
+.navbar-brand > img {
+    display: block;
+    padding: 0;
+}
+.HomeMainBannerBg {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0;
+    position: relative;
+    height: auto;
+    min-height: 470px;
+    background-image: url(../img/bg-1.jpg);
+}
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+    display: inline-block;
+}
+.navbar-nav > li {
+    float: left;
+    display: inline-block;
+}
+.nav-head{
+    width: 30px;
+    cursor: pointer;
+}
+
+.aboutBox {
+    padding: 60px 0 25px !important;
+    background-image: url(../img/Home-About.svg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 140% 90%  !important;
+    background-color: #f8f8f8 !important;
+    background-position-y: center !important;
+}
+.aboutBox p {
+    color: #454545 !important;
+    max-width: 70% !important;
+    font-size: 26px !important;
+    line-height: 40px;
+}
+.aboutBox p span{
+    color: #000 !important;
+    font-weight: bold;
+}
+.aboutBox p strong{
+    color: #009cff !important;
+}
+
+.aboutBox1{
+    padding: 60px 0 35px !important;
+    min-height: 300px;
+    background-color: #f8f8f8 !important;
+}
+.aboutBox1 p{
+    color: #454545 !important;
+    max-width: 70% !important;
+    font-size: 26px !important;
+}
+.aboutBox1 p span{
+    color: #000 !important;
+    font-weight: bold;
+}
+.aboutBox1 p strong{
+    color: #009cff !important;
+}
+
+.ServicesBox1{
+    padding:40px 0px !important;
+    background-color: #f3f3f3 !important;
+}
+.ServicesBox1 p {
+    color: #5e5e5e !important;
+    font-size: 24px !important;
+}
+
+.ServicesBox1 p span {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.ServicesBox2:hover {
+    background-color: #f3f3f3 !important;
+    cursor: pointer;
+}
+
+.clientStud {
+    padding: 40px 0 !important;
+}
+
+.clientStud .section-title{text-align: left; float: left; margin: 0px !important;}
+.clientStud .section-title h2{text-align: left; margin:0px !important;}
+.clientStud .section-title p{text-align: left; margin: 10px 0 !important;}
+
+
+.servicesBox h5 {
+    font-size: 14px !important;
+    font-weight: normal;
+    background: #1f262e;
+    margin: 0;
+    padding: 12px 0;
+    border-radius: 0px 0px 10px 10px;
+    color: #fff;
+}
+
+.servicesBox1 h5 {
+    font-size: 16px !important;
+    text-align: left;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 0px;
+}
+.servicesBox img{ width: auto !important;}
+.WhatWeDo{
+  text-align: center;
+}
+.WhatWeDo h2{
+    font-size: 28px !important;
+    color: #000;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.WhatWeDo h6{
+    font-size: 12px !important;
+    text-align: left;
+    line-height: 22px;
+    text-align: center;
+}
+.enquiryform {
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -150px;
+    box-shadow: 12px 13px 18px 4px #0000003b;
+}
+.FormHeader{
+    background-color: #1f262e;
+    padding: 16px;
+    color: #fff;
+}
+.FormHeader h4 {
+    font-size: 11px;
+    margin: 12px;
+    text-transform: uppercase;
+}
+.FormHeader span {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.FormContent {
+    padding: 40px 20px;
+}
+.enquiryform input, .enquiryform select {
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 0 !important;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.FormSubmit {
+    border-radius: 50px;
+    background: #1f262e;
+    color: #fff;
+    margin: 20px auto;
+}
+
+.foodSection{
+    padding: 60px 0px;
+}
+.foodSection h5 {
+    font-size: 28px !important;
+    text-align: center;
+    color: #000;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: bold;
+    padding:0px 0px 30px;
+}
+.foodIcon {
+    width: 30px;
+    margin: 0;
+}
+.foodSectionLeft {
+    float: right;
+    padding:40px 150px 15px;
+    border: 2px solid #1f262e;
+    border-radius: 5px;
+   
+}
+.foodSectionLeft h5{
+    font-size: 28px !important;
+    text-align: left;
+    color: #000;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 0px;
+}
+.foodSectionLeft h6 {
+    font-size: 12px !important;
+    text-align: left;
+    line-height: 22px;
+}
+.foodSectionRight{
+    float: left;
+    position: relative;
+}
+.foodSectionRight img {
+    position: absolute;
+    z-index: 999;
+    padding: 60px 0;
+}
+
+.box12{
+    background:#fff; 
+    border-radius: 10px; 
+    padding:70px 5px !important;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%), 0 0 1px 0 rgb(0 0 0 / 5%);
+}
+.box20{
+    padding:10px 5px !important;
+}
+.box12an{color:#009cff !important; padding: 20px; float: left;}
+.box12an img{display:inline;}
+.servicesP {
+    padding: 0px 20px;
+    text-align: left;
+}
+.box13 h5{
+    color: #000000 !important;
+    float: left;
+    font-size: 32px !important;
+    padding: 0;
+    text-align: left;
+}
+.box13 h6{
+    font-size: 16px !important;
+    text-align: left;
+    line-height: 30px;
+}
+
+.box13 .SeeMore{
+    color: #009cff !important;
+    border: 2px solid #009cff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 21px;
+}
+.box14{background:#fff; border-radius: 10px; padding: 5px 25px; position: relative;}
+.box14 h5, .box14 h5:hover{
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #000 !important;
+    margin: 10px 0;
+    line-height: 22px;
+}
+.box14an{color:#858181; padding: 0px; float: left;}
+
+.box15 {
+padding: 0 0 0px 50px;
+}
+.box15 h5{
+    font-size: 28px !important;
+    text-align: left;
+    color: #000;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.box15 h6 {
+    font-size: 12px !important;
+    text-align: left;
+    line-height: 22px;
+}
+
+
+.footerBt {
+    border-top: 1px solid #ffffff;
+    background: #b95c47;
+}
+
+.FooterList{
+    display: inline-block;
+    padding:15px 0px;
+}
+.FooterList li {
+    display: inline-block;
+    width: 70px;
+    margin: 6px 6px 0 0;
+}
+.FooterList li img{
+    width: 70px;
+}
+
+.CareerBox{
+	padding: 120px 0 55px;
+    background-image: url('../img/career-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.CareerBox h3{
+    color:#fff;
+	font-size:32px;
+	font-weight:bold;
+    padding: 0px;
+}
+.CareerBox .btn1 {
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    margin: 60px 10px;
+    padding: 10px 30px;
+    float: left;
+    font-size: 18px;
+    overflow: hidden;
+    clear: both;
+}
+.CareerBox span {
+    color: #fff !important;
+    max-width: 50% !important;
+    font-size: 20px !important;
+    float: left;
+	padding:20px 0px;
+    
+}
+.CareerBox p span{
+    color: #000 !important;
+    font-weight: bold;
+}
+.CareerBox p strong{
+    color: #009cff !important;
+}
+
+.accordionBox{
+	background-color:#fff !important;
+}
+.accordionBox h5 {
+    font-size: 16px !important;
+    text-align: left;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 0px;
+}
+.box16 h5 {
+    color: #000000 !important;
+    float: left;
+    font-size: 32px !important;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    font-style: normal;
+}
+.box16 h6 {
+    font-size: 16px !important;
+    text-align: left;
+    line-height: 30px;
+    width: 100%;
+}
+.box16 .SeeMore {
+    color: #009cff !important;
+    border: 2px solid #009cff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 21px;
+}
+
+.accordionBox{
+    padding: 100px 0px 0px;
+}
+.accordion-header{margin: 0px;}
+.accordionBox button {
+    font-size: 28px;
+    color: #009cff;
+    box-shadow:none !important;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.accordionBox button:hover, .accordionBox button:active {
+    font-size: 28px;
+    color: #3c3e8b !important;
+    background: #fff !important;
+    font-weight: bold;
+    transition: all 300ms ease-in-out !important;
+}
+.accordion-button:not(.collapsed){
+    color: #009cff;
+}
+.accordionBox button span {
+    color: #e138e1;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bradcum{
+    width: 100%;
+}
+.bradcum ul{
+   display: inline-block;
+   padding: 0px;
+   margin: 0px;
+}
+.bradcum ul li{
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+}
+.bradcum ul li a{
+    color: #009cff;
+    margin: 0px 5px  !important;
+}
+
+.subtophead{
+    color: #fff;
+    font-size: 28px !important;
+    width: 60%;
+    line-height: 46px;
+}
+
+.subtophead1{
+    color: #727272;
+    font-size: 17px !important;
+    width: 100%;
+    line-height: 26px;
+}
+.InnerTopBox{
+    min-height: 380px; 
+}
+
+
+.servicesTab{
+    padding: 40px 0px;
+}
+.servicesTab h3{
+text-align: left;
+font-size: 32px;
+color: #000;
+padding: 0px 0px 40px;
+}
+.servicesTab span{
+    padding: 10px 0px 20px;
+    width: 100%;
+    font-size: 18px;
+    float: left;
+}
+
+
+.InnerHead{padding: 20px; border-radius:2px;}
+.InnerHeadbg{background: #f5f5f5;}
+.InnerHead h5 {
+    color: #000000 !important;
+    float: left;
+    font-size: 28px !important;
+    padding: 0;
+    text-align: left;
+    font-style: normal;
+    margin: 20px 0;
+}
+.InnerHead h6{
+    font-size: 16px !important;
+    text-align: left;
+    line-height: 26px;
+    color: #adadad;
+}
+.InnerHead h3{
+    color: #000000;
+    float: left;
+    font-size: 20px !important;
+    padding: 0;
+    text-align: left;
+    font-style: normal;
+    width: 100%;
+    margin: 7px 0;
+}
+.InnerHead p{
+    text-align: center;
+}
+
+.servicesWork{
+    background:#12294b;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0px 70px;
+}
+.servicesWork1{
+   border-right:1px solid #254a81;
+}
+.servicesWork h4{
+    background:#12294b;
+    color: #fff;
+    padding: 30px 80px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.servicesWork a{
+    border:2px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.header2{
+    background:#3c3e8b !important;
+}
+.ShowCaseBox{
+    background: #fff;
+    padding: 80px 0px;
+}
+
+.showcasehead2 {
+    padding: 20px;
+}
+.showcasehead2 h5{
+    color: #009cff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.showcasehead2 p {
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.showcasehead2 h4{
+    color: #009cff;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0 0;
+    margin: 10px 0 0;
+}
+.showcasehead2 h6{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.showcasehead2 strong{
+    color: #000;
+    font-size: 18px;
+}
+
+
+.ShowCaseBox1{
+    background: #fff;
+    padding: 80px 0px;
+}
+.FactsAbout{
+    background: #fff;
+    padding: 80px 0px 10px;
+}
+
+.showcasehead3 {
+    padding: 20px;
+}
+.showcasehead3 h5{
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 90px 0 10px;
+}
+.showcasehead3 p {
+    color: #686868;
+    font-size: 17px;
+    line-height: 27px;
+}
+.showcasehead3 a{
+    color: #009cff;
+    font-size: 18px;
+    padding: 10px 0px;
+    float: left;
+}
+.showcasehead3 a .arrorimg{
+    float: left;
+    padding:2px 4px 2px 0;
+}
+.showcasehead3 a span{
+    color: #999999;
+    font-size: 16px;
+    padding:0px;
+    text-decoration: none;
+    margin:0px;
+    float: left;
+}
+
+.showcasehead3 .button1{
+    color: #fff !important;
+    font-size: 16px;
+    background-color: #009cff;
+    padding: 15px 50px;
+    float: left;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+.showcasehead3 .imgWebsite{
+    width: 100%;
+    position:relative;
+}
+.showcasehead3 .BtnWeb{
+    border: 2px solid #009cff;
+    background: #009cff;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
+
+.servicesWorkNew{
+    background:#12294b;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0px 70px;
+}
+
+.servicesWorkNew h4 {
+    color: #fff;
+    padding: 30px 80px 0;
+    font-size: 42px;
+    font-weight: bold;
+}
+.servicesWorkNew h5{
+    color: #fff;
+    padding:0px 200px 60px;
+    font-size: 20px;
+    width: 100%;
+    margin: 0px auto;
+    line-height: 34px;
+}
+.servicesWorkNew a{
+    border:2px solid #009cff;
+    background:#009cff;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.CareerJob{
+    padding: 0px 0px 50px;
+}
+.careerMainBanner{padding: 80px 0px 40px !important;}
+.CareerJob h4 {
+    font-size: 32px !important;
+    margin: 12px 0 25px;
+    font-weight: 600;
+    color: #000;
+}
+
+.CareerJob ul{
+   padding: 0px;
+   display: block;
+}
+.CareerJob ul li{
+    padding: 0px;
+    display: block;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding: 10px 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+ }
+ .CareerJob ul h5{
+    font-size: 20px;
+    color: #009cff;
+    margin: 9px 0 0;
+    font-weight: bold;
+ }
+ .CareerJob ul h6 {
+    font-size: 15px;
+    color: #7c7c7c;
+    margin: 6px 0;
+}
+ .CareerJob .dataTime{
+     width: 100%;
+     float: left;
+     padding: 0px 20px;
+     color: #7c7c7c;
+ }
+ .CareerJob .dataTime span{
+   padding-right:10px;
+}
+.CareerJob .dataTime .fa{
+   color: #009cff;
+ }
+.CareerJob a{
+    border: 2px solid #009cff;
+    background: #009cff;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 40px 0 0;
+    float: right;
+ }
+
+ .contactForm {
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%), 0 0 1px 0 rgb(0 0 0 / 5%);
+    padding: 0px 0px 40px 0px;
+}
+ .contactForm h3{
+    font-size: 24px !important;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 12px;
+}
+
+.contactForm input{
+    border-radius: 3px !important;
+    margin: 10px;
+}
+
+.contactForm textarea{
+    border-radius: 3px !important;
+    margin: 10px;
+    width: 94%;
+    background: #fff;
+}
+
+.contactForm button, .contactForm button:hover{
+    padding: 12px 20px;
+    background: #009cff;
+    font-size: 16px;
+    border: none;
+    width: 200px;
+    margin: 20px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.contactDetails h3{
+    font-size: 20px;
+    color: #8f8e8e;
+    margin: 1px 0 25px;
+    float: left;
+    width: 100%;
+    font-weight: normal;
+    padding: 0px 160px 0 0;
+}
+.contactDetails h6{
+    font-size: 24px;
+    color: #000;
+    margin: 25px 0 25px;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+}
+.contactDetails span {
+    font-size: 18px;
+    color: #5c5c5c;
+}
+.contactDetails p{
+    font-size: 16px;
+    color: #009cff;
+    margin: 0px;
+}
+
+
+.contactDetails article {
+    margin-bottom: 15px;
+}
+
+.webDevBox1{
+    margin: 0px;
+    padding: 20px 20px 0;
+}
+.webDevBox1 h3 {
+    font-size: 18px !important;
+    margin: 8px 0;
+}
+.webDevBox {
+    margin: 20px 0;
+}
+.GoalsBox{
+    background-color:#fff !important;
+    padding: 20px 0px;
+}
+.GoalsBox h4 {
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 0px;
+    width: 100%;
+    margin: 5px 0;
+    color: #000;
+}
+.GoalsBox h5 {
+    text-align: left;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 0px;
+    width: 100%;
+    margin: 20px 0 0;
+}
+.GoalsBox h6 {
+    font-size: 14px;
+    text-align: left;
+    line-height: 23px;
+    padding: 0px;
+    width: 100%;
+    margin: 0;
+}
+.devList{
+    display: inline-block;
+    padding: 0px;
+}
+.devList li{
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.devList li:hover{
+    background: #009cff !important;
+    border: 1px solid #009cff;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%), 0 0 1px 0 rgb(0 0 0 / 5%);
+    transition: all 1s;
+}
+.devList li:hover h4, .devList li:hover h6 {
+    color: #fff;
+}
+
+
+.GoalsBoxHead h3{
+    color: #009cff;
+    font-size: 28px;
+    font-weight: bold;
+}
+.GoalsBoxHead h3 img {
+    margin-right: 20px;
+    margin-bottom: 7px;
+}
+
+.designMethod img{
+    float: left;
+}
+.designMethod {
+    background: #f9f9f9;
+    min-height: 360px;
+    margin-top: 30px;
+    padding: 40px 40px 0px;
+}
+.designMethod:nth-child(2) {
+    background: #efefef;
+    min-height: 390px;
+}
+
+.designMethod:nth-child(3) {
+    background: #dfdfdf;
+    min-height: 420px;
+}
+
+.designMethod:nth-child(4) {
+    background: #cbcbcb;
+    min-height: 440px;
+}
+.uibg{
+    padding: 60px 0 !important;
+    background-image: url('../img/UIbg.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+
+    background-color: #f8f8f8 !important;
+}
+
+
+.AndroidBox{
+    padding: 80px 0px;
+    background: #eff7fa;
+}
+.AndroidBox h3{
+text-align: left;
+    font-size: 32px;
+    color: #000;
+    padding: 0px 0px 0px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+}
+.AndroidBox span{
+    padding: 10px 0px 20px;
+    width: 100%;
+    font-size: 18px;
+    float: left;
+}
+.AndroidBox strong{
+    padding: 10px 0px 20px;
+    width: 100%;
+    font-size: 16px;
+    float: left;
+    color: #8b8b8b;
+    font-weight: normal;
+}
+
+.AndroidBoxRight h3{
+    color: #4a64ed;
+    padding: 10px 0px 0px;
+}
+.AndroidBoxRight h6{
+    margin: 5px 0;
+}
+
+.AndroidBoxLeft{
+    padding: 0 100px 0 0;
+}
+
+.AndroidBoxRight span{
+    color: #e138e1;
+    padding: 0;
+    font-size: 20px;
+    float: left;
+    width: 40px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.AndroidBoxRight h4{
+    color: #4a64ed;
+    padding: 0;
+    font-size: 20px;
+    float: left;
+    margin: 3px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/****Tab****/
+ .tabs-left {
+    border-bottom: none;
+    padding-top: 2px;
+  }
+  .tabs-left {
+    border-right: 1px solid #ddd;
+  }
+  .tabs-left>li{
+    float: none;
+    margin-bottom: 2px;
+  }
+  .tabs-left>li {
+    margin-right: -1px;
+    width: 100%;
+  }
+  
+  .tabs-left>li>a {
+    border-radius: 4px 0 0 4px;
+    margin-right: 0;
+    display:block;
+    font-size: 22px !important;
+    text-transform: capitalize !important;
+    font-weight: bold;
+    color: #4a64ed !important;
+    position: relative;
+    padding: 10px !important;
+  }
+  .MobUITab li a.active:after{
+    background-image: url(../img/arrow-pink.png) !important;
+    content: "";
+    display: block;
+    top: 12px;
+    right: 2px;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  .tabs-left>li.active>a,
+  .tabs-left>li.active>a:hover,
+  .tabs-left>li.active>a:focus {
+    border-bottom-color: #fff !important;
+    border-right-color: transparent !important;
+  }
+  .vertical-text.tabs-left {
+    left: -50px;
+  }
+  .tabs-left, .tab-content{
+      margin: 20px 0px 0px !important;
+  }
+  .tab-content .tab-pane {
+    padding: 0px !important;
+    background: #ffffff !important;
+}
+  /****Tab****/
+
+  .TabBoxContent{
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #4a64ed;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    background: #fff !important;
+    z-index: 9;
+  }
+  .TabBoxContent .header12{
+    font-size: 24px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: end;    
+    
+  }
+  .TabBoxContent .header12 span{
+    font-size: 18px;
+    float: left;
+    width: 20px;
+    color: #e138e1;
+  }
+  .TabBoxContent .header12 strong{
+    font-size: 80px;
+    float: left;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #e138e1,
+    1px -1px 0 #e138e1,
+    -1px 1px 0 #e138e1,
+    1px 1px 0 #e138e1;  
+  }
+  .TabBoxContent h3{
+    font-size: 32px;
+    margin: 0px;
+    padding: 10px 0px;
+    color: #4a64ed;
+    font-weight: normal;
+  }
+  .TabBoxContent p{
+    font-size: 16px;
+  }
+
+  .overLayBox{position: relative;}
+  .overLayBox:after{
+    content: "";
+    display: block;
+    top: 40px;
+    right: -60px;
+    position: absolute;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .header10{
+    font-size: 24px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items:top;    
+    
+  }
+  .header10 span{
+    font-size: 18px;
+    float: left;
+    width: 20px;
+    color: #e138e1;
+  }
+  .header10 strong{
+    float: left;
+    margin: 6px 15px;
+  }
+
+  .Box12 {
+    margin: 0 0 17px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.Box12:last-child {
+    margin: 0;
+    border-bottom:none;
+}
+
+.seoBox1{
+    padding: 80px 0px;
+}
+.seoBox1 h2{
+    font-size: 32px;
+}
+.seoBox1 h3{
+    font-size: 16px;
+}
+.aboutBtn1{
+    border: 2px solid #009cff;
+    background: #009cff;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.about2nd{
+    padding: 20px 0px;
+}
+.about2nd h3{
+    font-size: 32px;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: #000;
+}
+.about2nd .abtBox{
+    padding: 0px 80px 0 0;
+}
+
+.about2nd .abtBox h4{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+}
+.about2nd .abtBox p{
+   font-size: 18px;
+   color: #8b8b8b;
+}
+.aboutList{
+    padding:40px 0;
+    display: inline-block;
+    background: #fc7754;
+    width: 100%;
+    margin: 50px 0 30px; 
+    border-radius: 20px;
+}
+.aboutList li{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+.aboutList li:last-child{
+    border-right: 1px solid transparent;
+}
+.aboutList li strong{
+    font-size: 48px;
+    width: 100%;
+    float: left;
+}
+.aboutList li span{
+    font-size: 16px;
+    width: 100%;
+}
+.aboutwork{
+    padding: 40px 0px;
+}
+
+.aboutwork h3{
+    font-size: 38px;
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+    color: #000;
+}
+.aboutBtn2{
+    margin-bottom: 40px;
+}
+.aboutwork span{
+    float: left;
+    height: 100%;
+    width: 80px;
+}
+.aboutwork strong {
+    float: left;
+    height: 100%;
+    width: 160px;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #000;
+}
+.aboutwork1{
+    background: #0687ff;
+    padding: 60px 12px;
+}
+.aboutwork1 h3{
+    font-size: 42px;
+    color: #fff;
+}
+
+.aboutwork1 h3>span{
+    font-size: 28px;
+}
+
+.aboutwork1 strong {
+    float: left;
+    height: auto;
+    width: 100%;
+    font-size: 18px;
+    padding: 20px 0px 10px;
+    color: #fff;
+    text-align: left;
+}
+.aboutwork1 p {
+    padding: 0px;
+    color: #dfdfdf;
+    font-size: 16px;
+}
+.AboutHistory{
+    padding: 50px 0px 60px;
+    background:#eff7fa;
+}
+.AboutHistory h3{
+    font-size: 38px;
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+    color: #000;
+}
+.HistoryAbt{
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+}
+.AboutHistory h2{
+    width: 100%;
+    height: 0px;
+    border-bottom: 4px dotted #009cff;
+    margin: 0px;
+}
+.HistoryAbt, .HistoryAbt1{
+    display: inline-block;
+    padding: 0px;
+}
+.HistoryAbt li, .HistoryAbt1 li{
+    display: inline-block;
+    padding: 10px 0;
+    width: 19.5%;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+.HistoryAbt li h3, .HistoryAbt1 li h3{
+    color: #009cff;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.HistoryAbt li p, .HistoryAbt1 li p{
+    color: #000;
+    font-size: 14px;
+    text-align: left;
+    margin: 0px;
+}
+.HistoryAbt li:after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    bottom: -20px;
+    background: #0687ff;
+    border-radius: 50%;
+}
+
+.contactBox{
+    padding: 70px 0px 100px;
+    position:relative;
+}
+.contactBox .box1{
+    background:#0287fe;
+    color: #fff;
+    text-align: center;
+    padding: 70px 0px 100px;
+    min-height: 300px;
+}
+
+.contactBox .box2 {
+    background: #fff;
+    padding: 0;
+    margin-top: -200px;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%), 0 0 1px 0 rgb(0 0 0 / 5%);
+    border-radius: 5px;
+}
+.contactBox .box2 .box122{
+padding: 90px;
+}
+.contactBox .box2 h3{
+font-size: 38px;
+color: #000;
+}
+
+.contactBox .box2 a {
+    background: #009cff;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 40px;
+    font-size: 18px;
+    margin: 19px 0;
+    float: left;
+}
+.contactimg1{
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+}
+.CaseMainImg{
+    width: 100%;
+}
+.Case-Study{
+    padding: 100px 0px;
+}
+.Case-Study h5{
+    font-size: 28px;
+    margin: 20px 0 0px;
+    font-weight: bold;
+    color: #000;
+}
+.Case-Study p {
+    font-size: 18px;
+    padding: 0;
+    margin: 9px 0 30px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #000;
+}
+.CaseList{
+    display: inline-block;
+    padding: 0px;
+    width: 100%;
+}
+.CaseList li{
+    display: inline-block;
+    width: 49%;
+    padding: 10px 0px;
+}
+.CaseList span {
+    color: #545151;
+    font-size: 17px;
+    width: 100%;
+    float: left;
+}
+.CaseList strong{
+    color: #000;
+    font-size: 16px;
+    width: 100%;
+    float: left;
+}
+.CaseList strong>a{
+    color: #009cff;
+    font-weight: bold;
+}
+.DCHCBox p{
+    color: #000 !important;
+    font-size: 16px !important;
+    line-height: 20px;
+    font-weight: normal;
+    margin: 25px 0px;
+}
+.CaseWeDO{
+    padding: 60px 0px;
+    background:#eff9fb;
+}
+.CaseWeDO h3{
+    color: #000;
+    font-size: 38px;
+}
+.CaseWeDO p{
+    color: #858181;
+    font-size: 16px;
+}
+.CaseWeDO1{
+    padding: 60px 0px;
+    background:#009cff;
+    color: #fff;
+}
+.CaseWeDO1 h3 {
+    color: #fff;
+    font-size: 38px;
+    padding-right: 50px;
+}
+.CaseWeDO1 h4{
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+}
+.CaseWeDO1 p{
+    color: #fff;
+    font-size: 16px;
+}
+.technoligyBox{
+    padding: 30px 0px;
+}
+.technoligyBox h3{
+   font-size: 38px;
+   padding: 20px 0px;
+   color: #000;
+}
+.techlist{
+    display: inline;
+}
+.techlist li{
+    display: inline;
+    width: 19.5%;
+    float: left;
+}
+.techlist li img{
+    padding: 0px 35px;
+    width: 90%;
+}
+.CaseworkBox{
+    padding: 40px 0px;
+    background:#fff;
+}
+.CaseworkBox h3{
+    color: #000;
+    font-size: 38px;
+    padding: 0px 0px 50px;
+}
+
+.workList{
+    padding: 0px;
+    display: inline-block;
+    width: 100%;
+}
+.workList li{
+    padding: 0px;
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+.workList li span{
+    width: 80px;
+    float: left;
+}
+.workList li strong{
+    float: left;
+    width: 70%;
+    padding: 0px 15px;
+    position: relative;
+}
+.workList li strong:before {
+    color: #3c97ff;
+    font-size: 60px;
+    position: absolute;
+    top: -50px;
+    opacity: 0.2;
+}
+.workList li:first-child strong:before {
+    content: "1";
+}
+.workList li:nth-child(2) strong:before {
+    content: "2";
+}
+.workList li:nth-child(3) strong:before {
+    content: "3";
+}
+.workList li:last-child strong:before {
+    content: "4";
+}
+.workList li h4 {
+    font-size: 16px;
+    width: 100%;
+    margin: 8px 0 0;
+    color: #094895;
+    font-weight: bold;
+}
+.workList li h5{
+    font-size: 14px;
+    width: 100%;
+    line-height: 18px;
+}
+.discussBox{
+    font-size: 18px;
+    float: left;
+    background: #12294b;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+.discussBox h3{
+    font-size: 38px;
+    color: #fff;
+    padding: 10px 0 0;
+}
+.discussBox h4{
+    color: #fff;
+    font-size: 24px;
+}
+.discussBox a {
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    background: #009cff;
+    padding: 10px 20px;
+    border-radius: 23px;
+    margin: 60px;
+    text-decoration: none;
+}
+.bthSideBar, .bthSideBar:hover, .bthSideBar:active {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #fff;
+    font-size: 24px !important;
+    text-transform: capitalize !important;
+    width: 100%;
+    float: left !important;
+    text-align: left !important;
+    padding: 8px 33px !important;
+    border:none !important;
+}
+.btn-group, .btn-group-vertical {
+    width: 100% !important;
+}
+.btn-group.open .dropdown-toggle {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.dropdown-menu {
+    background: #fff !important;
+    border-radius: 0 !important;
+    margin-left: 30px !important;
+    width: 100% !important;
+}
+.sideANav{
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #fff !important;
+    font-size: 24px !important;
+    text-transform: capitalize !important;
+    width: 100%;
+    float: left !important;
+    text-align: left !important;
+    padding: 8px 33px !important;
+    border-bottom: 1px solid #7ab3d7;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    padding: 60px 20px 0;
+}
+.carousel-caption {
+    left: 15%;
+    top: 100px;
+}
+.carousel-caption h1 {
+text-align: left !important;
+}
+.carousel-caption h2{
+    text-align: left !important;
+}
+.carousel-caption a{
+    text-align: left !important;
+    float: left !important;
+}
+.homeSlideNav {
+    left: -140px;
+    width: 100%;
+    bottom: -50px;
+}
+.homeSlideNav li {
+    width: 44px !important;
+    height: 8px !important;
+    border-radius: 0;
+    float: left;
+    margin: 0px 6px !important;
+}
+.bannertext {
+    margin-top: 0vw;
+    position: absolute !important;
+    top: 120px !important;
+    left:0 !important;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #009cff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 9999999;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 18px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #727272;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+.CashWalle{
+    border: 2px solid #9f9f9f;
+    width: 88%;
+    margin: 12px 6%;
+    padding: 30px;
+    text-align: center;
+}
+.CashWalle h3{
+    font-size: 24px;
+    color: #fff;
+    margin: 0px;
+}
+.CashWalle h5{
+    font-size: 16px;
+    color: #fff;
+}
+.CashWalle a{
+    padding: 10px 25px;
+    color: #fff;
+    background: #b02988;
+    margin: 0px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.clientAss{
+    width: 88%;
+    margin: 12px 6%;
+    padding: 30px;
+    text-align: right;
+}
+.clientAss h3{
+    font-size: 24px;
+    color: #fff;
+    margin: 0px;
+    padding: 70px 0 0 ;
+}
+.clientAss h5{
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0px;
+}
+.clientAss a{
+    padding: 10px 25px;
+    color: #fff;
+    margin: 0px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.clientAss img{
+    width: 32px !important;
+    height: auto !important;
+    max-height: auto !important;
+    min-height: auto !important;
+    float: right;
+}
+
+.Stupendo{
+    width: 88%;
+    margin: 12px 6%;
+    padding: 30px;
+    text-align: center;
+}
+.Stupendo h3{
+    font-size: 24px;
+    color: #fff;
+    margin: 0px;
+    padding: 0px 0 20px ;
+    text-align: left;
+}
+.Stupendo h5{
+    font-size: 16px;
+    color: #fff;
+}
+.Stupendo a{
+    padding: 10px 25px;
+    color: #fff;
+    margin: 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+}
+
+
+.financeBox{
+    width: 88%;
+    margin: 12px 6%;
+    padding: 30px;
+    text-align: left;
+}
+.financeBox h3{
+    font-size: 24px;
+    color: #35cbdd;
+    margin: 0px;
+    padding: 0px 0 20px ;
+}
+.financeBox h5{
+    font-size: 16px;
+    color: #fff;
+}
+.financeBox a{
+    padding: 10px 25px;
+    color: #fff;
+    margin: 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: #009cff;
+}
+
+
+.EjiayBox{
+    width: 94%;
+    margin: 12px 4%;
+    padding: 30px;
+    text-align: right;
+}
+.EjiayBox h3{
+    font-size: 24px;
+    color: #fff;
+    margin: 0px;
+    padding: 0px 0 20px ;
+}
+.EjiayBox h5{
+    font-size: 16px;
+    color: #fff;
+}
+.EjiayBox a{
+    padding: 10px 25px;
+    color: #fff;
+    margin: 200px 0px 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+}
+
+.socialNav{
+    padding: 0px;
+    display: block;
+    position: fixed;
+    top: 40%;
+    left: 0px;
+}
+.socialNav li{
+    display: block;
+}
+.socialNav li a{
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    font-size: 22px;
+    color: #0287fe;
+    font-weight: bold;
+}
+.CtrlIns {
+    bottom: -20px;
+    position: relative;
+}
+
+.CtrlIns a.carousel-control-next {
+    left: 70px !important;
+}
+.OurSerNav {
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+.OurSerNav a.carousel-control-prev {
+    left: 155px !important;
+}
+.BlogBtn, .BlogBtn:hover{
+    left: 40px;
+    top: 20px;
+    position: absolute;
+    padding: 5px 25px;
+    font-size: 14px;
+    background: #ffa520;
+    color: #fff;
+    border-radius: 6px;
+}
+.NewsBtn, .NewsBtn:hover{
+    left: 40px;
+    top: 20px;
+    position: absolute;
+    padding: 5px 25px;
+    font-size: 14px;
+    background:#d632cb;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.accordion-button::after {
+    background-image: url('../img/plus.png') !important;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    width: 36px;
+    height: 36px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../img/minus.png') !important;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    width: 36px;
+    height: 36px;
+}
+.HomeAccordion .accordion-item {
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    border: transparent;
+}
+
+
+.aboutBanner, .ServicesBanner{
+    left: 0px !important;
+    position:relative !important;
+}
+
+.mobNav{display: none }
+.MobNavLi{display: none !important;}
+.contacth1 {
+    font-size: 32px !important;
+    margin: 12px 0 8px;
+}
+.CareerBoxMain{padding: 0px;}
+.Careerh1 {
+    font-size: 32px !important;
+    margin: 12px 0 8px;
+    font-weight: 600;
+}
+.CareerBoxMain h3 {
+    font-size: 18px;
+    width: 80%;
+    line-height: 27px;
+    font-weight: normal;
+    color: #686868;
+}
+.casemainLeft {
+    padding-left: 0;
+}
+.ShowCsBanner {
+    padding: 80px 0px 20px !important;
+}
+.digiBoxLeft{
+    padding-left: 0px;
+}
+.digiBoxLeft h5{
+    margin: 0px;
+    padding: 0 0 14px;
+    font-weight: bold;
+}
+.digiBoxRight p{
+    font-weight: bold;
+    padding: 13px 70px 13px 0;
+    font-size: 18px;
+}
+.FactsAbout h1 {
+    font-size: 32px !important;
+    width: 60%;
+    line-height: 46px;
+    font-weight: 600;
+    padding: 15px 0 5px;
+}
+.FactsAbout h3{
+    padding: 0px 0px 20px;
+    width: 100%;
+    font-size: 18px;
+    float: left;
+}
+.SEOManagBox{
+    padding: 40px 0px;
+}
+.SEOManagBox h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+}
+.SEOManagBox h3 {
+    font-size: 17px;
+    color: #454545;
+    font-weight: normal;
+    line-height: 22px;
+}
+.SEOManagBox h4 {
+    font-size: 28px;
+    color: #009cff;
+    font-weight: bold;
+    padding: 0 44px 0 0;
+    line-height: 32px;
+}
+.SEOManagBox h5 {
+    font-size: 17px;
+    color: #454545;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 0px 100px;
+}
+.SeoBox{position: relative;}
+.counterBox {
+    position: absolute;
+    top: 85px;
+    width: 150px;
+    left: 50%;
+    margin-left: -75px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    color: #009cff;
+}
+.counterBox h6 {
+    font-size: 14px;
+    color: #000;
+    margin: 0px;
+    font-weight: bold;
+}
+.counterBox img{
+    width: 100%;
+}
+.SeoBoxhead{
+    padding: 20px 30px;
+}
+.UIDesignBox{
+    padding: 40px 0px;
+}
+.UIDesignBox h1{
+    font-size: 32px !important;
+    margin: 12px 0 8px;
+    font-weight: 600;
+}
+.UIDesignBox h4 {
+    font-size: 18px;
+    width: 80%;
+    line-height: 27px;
+    font-weight: normal;
+    color: #686868;
+}
+.designMethod h3 {
+    margin: 14px 0px 10px;
+}
+.designMethod h6 {
+    color: #404040;
+}
+.mobAppBox{
+    padding: 60px 0px;
+}
+.mobAppBoxLeft1{
+    font-size: 15px !important;
+    line-height: 22px;
+    color: #fff;
+}
+.mobAppBoxRIght1{
+    font-size: 14px !important;
+    line-height: 22px !important;
+    color: #fff !important;
+    float: left;
+    margin: 7px 0 40px;
+}
+
+.buttonDBlue{position: relative;}
+.buttonDBlue:hover{
+    transition: all 300ms ease-in-out !important;
+    background: #3c3e8b !important;
+    color: #fff !important;
+}
+
+.buttonDPurpal{position: relative;}
+.buttonDPurpal:hover{
+    transition: all 300ms ease-in-out !important;
+    background: #95146e !important;
+    color: #fff !important;
+}
+
+.buttonBlue{position: relative;}
+.buttonBlue:hover{
+    transition: all 300ms ease-in-out !important;
+    background: #009cff !important;
+    color: #fff !important;
+}
+
+.navbar-fixed-top.on .navbar-brand img {
+    width: 120px !important;
+    padding: 0px !important;
+    transition: all 300ms ease-in-out;
+}
+.owl-pagination{
+    display: none;;
+}
+.sliderOwn1, .sliderOwn2{
+    position: relative;
+}
+.sliderOwn1 .owl-buttons {
+    width: 200px;
+    position: absolute;
+    right: -330px;
+    top: 45px;
+    z-index: 99999999;
+    display: none;
+}
+.sliderOwn2 .owl-buttons {
+    width: 200px;
+    position: absolute;
+    right: -220px;
+    bottom: 80px;
+    z-index: 99999999;
+}
+.sidebar li .submenu{ 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	padding-left: 1rem; 
+	padding-right: 1rem;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 767px) {
+    img{max-width: 100%;}
+.mobNav {
+    display: block;
+    float: right;
+    margin: 10px 3%;
+}
+.MobNavLi{display: block !important;}
+.NavBoxCon{
+    padding: 0px;
+    display: block !important;
+}
+.MonNavMain{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.MonNavMain .navbar-header{width: 100%;}
+.accordionBox button, .accordionBox button:hover, .accordionBox button:active {
+    font-size: 16px;
+}
+.aboutBox p {
+    max-width: 100% !important;
+    font-size: 20px !important;
+    text-align: left !important;
+}   
+#our-work-block h2 {
+    font-size: 24px !important;
+    color: #000 !important;
+    font-weight: bold !important;
+} 
+.socialNav li a {
+    width: 40px;
+    height: 40px;
+}
+.mobpadding0{padding: 0px;}
+#home-banner {
+    height: 250px !important;
+}
+#our-work-block .works ul li {
+    padding: 10px 0 !important;
+}
+.accordionBox {
+    padding: 40px 0px 0px;
+}
+#from-blog {
+    padding: 20px 0px !important;
+}
+.CareerBox {
+    padding: 30px 15px;
+    background-size: auto !important;
+}
+.CareerBox span {
+    max-width: 100% !important;
+    font-size:18px !important;
+}
+.CareerBox .btn1 {
+    margin: 20px -10px !important;
+    padding: 6px 18px !important;
+}
+.bottom-footer div {
+    width: 100%;
+}
+.aboutList {
+    padding: 20px 0;
+    margin: 20px 0 0px;
+}
+.aboutList li {
+    width: 32.5%;
+}
+.aboutList li strong {
+    font-size: 32px;
+}
+.aboutList li span {
+    font-size: 12px;
+}
+.AboutHistory h3, .aboutwork h3 {
+    font-size: 28px;
+}
+.AboutHistory {
+    padding: 20px 0px;
+}
+.HistoryAbt li h3, .HistoryAbt1 li h3 {
+    font-size: 24px;
+}
+.HistoryAbt li p, .HistoryAbt1 li p {
+    font-size: 11px;
+}
+.aboutwork {
+    padding: 30px 0px;
+}
+.aboutBtn2 {
+    margin: 10px 40px !important;
+}
+.aboutwork1 p {
+    border-bottom: 1px solid #46a6ff !important;
+}
+.aboutwork1 .col-md-3:last-child p {
+    border-bottom: 1px solid transparent !important;
+}
+.bottom-footer {
+    padding:40px 5px 0 30px !important;
+}
+.aboutwork1 h3 {
+    font-size: 32px;
+}
+.aboutwork1 h3>span {
+    font-size: 22px;
+}
+.bannertext {
+    top: 0px !important;
+    left: 1% !important;
+}
+.subtophead {
+    font-size: 16px !important;
+    width: 100%;
+    line-height: 24px;
+}
+.aboutBox1 {
+    padding: 10px 0 15px !important;
+    min-height: auto !important;
+}
+
+.aboutBox1 p {
+    color: #454545 !important;
+    max-width: 100% !important;
+    font-size: 22px !important;
+}
+.servicesTab {
+    padding: 50px 0px;
+}
+.servicesTab h3 {
+    font-size: 32px !important;
+    padding: 0px 40px 40px !important;
+    text-align: center !important;
+}
+.InnerHead {
+    padding: 20px 60px !important;
+}
+.servicesWork {
+    padding: 10px 0px 50px;
+}
+.servicesWork1 {
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #46a6ff;
+    padding-bottom: 44px;
+}
+.servicesWork h4 {
+    padding: 30px 50px;
+    font-size: 28px;
+}
+.Case-Study {
+    padding: 70px 0px;
+}
+.CaseWeDO, .CaseworkBox, .CaseWeDO1, .technoligyBox {
+    padding: 40px 0px;
+}
+.CaseWeDO h3, .CaseworkBox h3 {
+    font-size: 28px;
+}
+.workList li {
+    padding: 0px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.workList li strong {
+    float: left;
+    width: 70%;
+    padding: 10px 15px;
+}
+.workList li h4 {
+    font-size: 20px;
+}
+.workList li strong:before {
+    font-size: 48px;
+    top: -32px;
+}
+.CaseWeDO1 h3{
+    font-size: 28px;
+}
+.technoligyBox h3{
+    font-size: 28px;
+    padding: 0px;
+}
+.discussBox {
+    padding: 12px;
+    margin-top: 0;
+}
+.discussBox a {
+    margin: 30px 50px;
+}
+.ShowCaseBox {
+    padding: 80px 0px 20px;
+}
+
+.CareerJob {
+    padding: 0px 20px 50px;
+}
+.CareerJob .dataTime {
+    position: absolute;
+}
+
+.servicesWorkNew {
+    padding: 20px 0px 50px;
+}
+.servicesWorkNew h4 {
+    padding: 20px 40px;
+    font-size: 28px;
+}
+.servicesWorkNew h5 {
+    font-size: 18px;
+    width: 100%;
+    line-height: 30px;
+    padding: 0px 30px 60px;
+}
+.ShowCaseBox h3 {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 0;
+}
+.showcasehead3 h5 {
+    padding: 0px 0 10px;
+}
+.contactForm h3 {
+    padding: 10px !important;
+}
+.contactForm input {
+    width: 94%;
+}
+.contactBox .box2 {
+    margin-top: -240px;
+    margin: -240px 10% -70px;
+    width: 80%;
+}
+.contactBox .box2 .box122, .servicesTab {
+    padding: 40px;
+}
+.contactBox .box2 h3 {
+    font-size: 28px;
+}
+.contactBox .box2 .box122 {
+    padding: 30px 30px 50px;
+    text-align: center;
+}
+.mobDevBox1 {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    padding: 0;
+}
+.devList li {
+    padding: 5px;
+}
+.GoalsBox h4 {
+    font-size: 13px;
+    line-height: 22px;
+}
+.GoalsBox h6 {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.servicesTab h3 {
+    font-size: 28px !important;
+    padding: 0 0 20px !important;
+}
+.servicesTab .InnerHead {
+    padding: 20px 10px !important;
+    margin: 0px;
+}
+.FactsAbout {
+    padding: 40px 30px 10px;
+}
+.FactsAbout h1 {
+    font-size: 24px !important;
+}
+.AndroidBoxLeft {
+    padding: 0 24px 50px;
+    float: left;
+}
+.AndroidBoxRight {
+    overflow: hidden;
+    width: 100%;
+}
+.AndroidBoxRight .AndRBox{
+    width: 30%;
+    float: left;
+}
+.AndroidBoxRight .AndRBox1{
+    width: 68%;
+    float: left;
+}
+.tabs-left>li.active>a:after{display: none;}
+.tabs-left>li>a {
+    padding: 4px 4px !important;
+}
+.header10 {
+    font-size: 20px;
+}
+.TabBoxContent {
+    padding: 20px;
+    margin: 0 0 20px;
+}
+.overLayBox:after {
+    top: 20px;
+    right: -30px;
+}
+
+.DiscoverBox{
+    overflow: hidden;
+}
+.DiscoverBox {
+    overflow: hidden;
+    width: 100%;
+}
+.DiscoverBox .designMethod{
+    margin: 0px 0px 20px;
+}
+.SeoBox{
+    text-align: center;
+}
+.sliderOwn1 .owl-buttons, .sliderOwn2 .owl-buttons {
+    width: 100%;
+    position: relative;
+    right: 0;
+    top: 0px;
+}
+#home-banner h1 {
+    font-size: 26px !important;
+    padding: 25px 0 0 !important;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    padding: 300px 20px 0;
+}
+#home-banner h2 {
+    font-size: 18px !important;
+    line-height: 26px !important;
+}
+.btn-outline-default {
+    margin: 10px 0 !important;
+    font-size: 13px !important;
+    padding: 5px 13px !important;
+}
+.homeSlideNav {
+    left: 80px !important;
+    width: 100%;
+    bottom: -10px;
+}
+.homeSlideNav li {
+    width: 30px !important;
+    height: 5px !important;
+}
+.box13 {
+    padding: 0px 40px;
+}
+.box16, .box15 {
+    padding: 0px 40px;
+}
+
+
+
+
+}
+  
