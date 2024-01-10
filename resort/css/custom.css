@@ -2156,6 +2156,349 @@ text-align: left !important;
     margin: 0px 50px;
 }
 
+.expBox {
+    padding: 10px 0px;
+    background: #b95c47;
+}
+.expBox ul{
+    display: inline-block;
+    margin: 0px;
+}
+.expBox li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 25px;
+    border-left: 3px solid #fff;
+    margin: 20px 1%;
+    text-transform: uppercase;
+    font-weight: normal;
+    width: 31%;
+    color: #fff;
+}
+.expBox strong {
+    width: 100%;
+    float: left;
+}
+.expBox span {
+    font-size: 17px;
+    margin: 0;
+}
+.OurServices{
+    padding:60px 0px 0px;
+    margin: 1px;
+}
+.OurServices h2 {
+    font-size: 40px;
+    padding: 25px;
+    border-left: 3px solid #404040;
+    margin: 0px 20px 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.OurServices span {
+    font-size: 13px;
+    width: 60%;
+    padding: 0px 50px;
+}
+
+#serviceList {
+    padding:40px 0 0;
+}
+
+.serBoxList {
+    background: #1f262e;
+    text-align: center;
+    padding: 40px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 7px 7px 1px #0000003b;
+    color: #cbcbcb;
+}
+
+.serBoxList img{
+width: 60px;
+}
+.serBoxList h4 {
+    font-size: 18px;
+    padding: 40px 0 0;
+}
+.serBoxList h5{
+font-size: 13px;
+line-height: 16px;
+}
+
+.OurRooms{
+    padding:60px 0px;
+}
+.OurRooms h2 {
+    font-size: 40px;
+    padding: 25px;
+    border-left: 3px solid #404040;
+    margin: 0px 20px 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.roomsList {
+    background: #1f262e;
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 7px 7px 1px #0000003b;
+    color: #cbcbcb;
+    overflow: hidden;
+}
+.roomsList img{
+    width: 100%;
+}
+.roomsList h4 {
+    font-size: 14px;
+    margin: 15px 0 10px;
+}
+.roomsSerList{
+    padding: 0px;
+}
+.roomsSerList li {
+    width: 31%;
+    display: inline-block;
+    margin: 3% 1% 2% 0;
+}
+.roomsSerList li img{
+    width: 25px;
+}
+.roomsSerList li span{
+    font-size: 10px;
+}
+.ViewInfo {
+    padding: 10px 0 30px;
+}
+.RoomPrice {
+    font-size: 12px;
+    color: #fff;
+    float: left;
+}
+.RoomPrice strong{
+    font-size: 12px;
+    color: #b95c47;
+}
+.ViewRoomPrice {
+    float: right;
+    background-color: #b95c47;
+    color: #fff;
+    font-size: 10px;
+    width: 80px;
+    padding: 3px;
+    text-transform: capitalize;
+    margin: -2px;
+}
+
+.feedback{
+    padding:60px 0px 30px;
+    background-color: #1f262e;
+}
+.feedback h2 {
+    font-size: 40px;
+    padding: 25px;
+    border-left: 3px solid #fff;
+    margin: 0px 20px 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff;
+}
+.FeedBackBox {
+    background-image: url(../img/feedbackBg.jpg);
+    background-size: 100%;
+    padding: 10px;
+    border: 1px solid #b95c47;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 40px 0 0;
+}
+.FeedBackLeft {
+    width: 30%;
+    float: left;
+}
+.FeedBackLeft img {
+    width: 100px;
+    border-radius: 50px;
+    margin: 70px 30px;
+}
+.FeedBackRight {
+    float: left;
+    width: 65%;
+    padding: 40px 0px;
+    color: #c9c9c9;
+}
+.FeedBackRight strong {
+    width: 100%;
+    float: left;
+    padding: 13px 0;
+    font-size: 16px;
+}
+.FeedBackRight span {
+    width: 100%;
+    float: inline-end;
+    padding: 20px 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+.OurBlogs{
+    padding:60px 0px;
+}
+.OurBlogs h2 {
+    font-size: 40px;
+    padding: 25px;
+    border-left: 3px solid #404040;
+    margin: 0px 20px 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.blogList{
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+.blogList li {
+    width: 22.6%;
+    margin: 1%;
+    display: inline-block;
+}
+.blogList .blogListImg{
+    box-shadow: 5px 7px 7px 1px #0000003b;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.blogList .blogListImg img{
+    width: 100%;
+}
+.blogList li span {
+    padding: 20px 2px;
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.ContactBannerBg {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0;
+    position: relative;
+    height: auto;
+    min-height: 470px;
+    background-image: url(../img/contact-bg.jpg);
+}
+
+.contactBox1 {
+    padding: 60px 0px;
+    overflow: hidden;
+}
+.ContactFormLeft {
+    width: 65%;
+    float: left;
+    padding: 0px 160px 0px 0px;
+}
+.ContactFormLeft h4 {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 0px;
+}
+
+.ContactFormRight {
+    width: 35%;
+    float: right;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -120px;
+    box-shadow: 0px 0px 12px 0px #0000003b;
+    right: 10%;
+}
+.ContactFormRight ul{
+    display: block;
+}
+.ContactFormRight ul li {
+    display: block;
+    padding: 1px 0px;
+}
+.ContactFormRight ul li h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.ContactFormRight ul li h4 {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.ContactFormBtn{
+    background-color: #404040;
+    color: #fff;
+}
+
+.contactBoxForm{
+    padding: 60px 0px 10px;
+    overflow: hidden;
+}
+.contactBoxForm h2{
+    font-size: 32px;
+    position: relative;
+    color: #404040;
+}
+.contactBoxForm h2::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #404040;
+    left: 0;
+    top: 50px;
+}
+.contactBoxForm ul {
+    display: inline-block;
+    padding: 20px 0;
+    margin: 0px;
+}
+.contactBoxForm ul li {
+    display: inline-block;
+    width: 48%;
+    float: left;
+    margin: 2% 1%;
+}
+.contactBoxForm ul li span {
+    padding: 7px 0;
+    float: left;
+}
+.contactBoxForm ul li input, .contactBoxForm ul li input:focus, 
+.contactBoxForm ul li textarea, .contactBoxForm ul li textarea:focus {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #404040;
+    border-radius: 5px;
+}
+
+.contactBoxForm ul .input100 {
+    width: 98%;
+    margin: 1% 0 0 1%;
+}
+.contactBoxForm ul .inputbtn {
+    text-align: center;
+    width: 100%;
+    padding: 30px 0 0;
+}
+
+.contactBoxForm ul .inputbtn .contactbtn {
+    background-color: #b95c47;
+    color: #fff;
+    border: 1px solid #b95c47;
+}
+
+
+
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}

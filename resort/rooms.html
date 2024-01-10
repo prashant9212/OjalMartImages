@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IHCL | Services</title>
+  <title>IHCL | Rooms</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="shortcut icon" href="#" type="image/x-icon">
@@ -39,7 +39,34 @@
       });
 
       //Owl Slider
-      $("#serChoose").owlCarousel({
+      $("#feedbackSlider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 7000,
+        autoplayHoverPause: true,
+        mouseDrag: true,
+        touchDrag: true,
+        pullDrag: true,
+        dots: false,
+        items: 2,
+        navSpeed: 7000,
+        navigation: true,
+        navigationText: ["<img src='img/arrow-left1.png'>", "<img src='img/arrow-right1.png'>"],
+        responsive: {
+          0: {
+            items: 1
+          },
+          767: {
+            items: 1
+          },
+          1000: {
+            items: 2
+          }
+        },
+        nav: true
+      });
+
+      $("#roomsList").owlCarousel({
         loop: true,
         autoplay: true,
         autoplayTimeout: 7000,
@@ -61,33 +88,6 @@
           },
           1000: {
             items: 3
-          }
-        },
-        nav: true
-      });
-
-      $("#serviceList").owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 7000,
-        autoplayHoverPause: true,
-        mouseDrag: true,
-        touchDrag: true,
-        pullDrag: true,
-        dots: false,
-        items: 4,
-        navSpeed: 7000,
-        navigation: true,
-        navigationText: ["<img src='img/arrow-left1.png'>", "<img src='img/arrow-right1.png'>"],
-        responsive: {
-          0: {
-            items: 1
-          },
-          767: {
-            items: 1
-          },
-          1000: {
-            items: 4
           }
         },
         nav: true
@@ -187,146 +187,262 @@
   </section>
 
 
-  <section class="serChoose">
+
+  <section class="OurRooms">
     <div class="container">
       <div class="row wow fdeInUp sliderOwn1">
-        <h2>Choose as ?</h2>
-        <div id="serChoose">
+        <h2>
+          Room <br /> Available
+        </h2>
+        <div id="roomsList">
           <div class="item">
-            <div class="col-md-12 wow fadeInUp box20 serChooseBox">
-              <center><img src="img/serChoose1.jpg" class="img-responsive"></center>
-              <header class="entry-header">
-                <h4>Unique And Memorable Stay</h4>
-                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                </h5>
-              </header>
-            </div>
+            <article class="col-md-12 wow fadeInUp box20 ">
+              <div class="roomsList">
+                <img src="img/room1.jpg">
+                <h4>Normal Deluxe Singal</h4>
+                <ul class="roomsSerList">
+                  <li>
+                    <img src="img/room.png">
+                    <span>1 Room</span>
+                  </li>
+                  <li>
+                    <img src="img/tv.png">
+                    <span>TV</span>
+                  </li>
+                  <li>
+                    <img src="img/bed.png">
+                    <span>1 Queen Bed</span>
+                  </li>
+                  <li>
+                    <img src="img/minibar.png">
+                    <span>Minibar</span>
+                  </li>
+                  <li>
+                    <img src="img/wifi.png">
+                    <span>Free Wifi</span>
+                  </li>
+                </ul>
+                <div class="ViewInfo">
+                  <div class="RoomPrice">
+                    <span>Starting From ₹</span>
+                    <strong>1500</strong>
+                    <span>/ Night</span>
+                  </div>
+                  <button type="button" class="ViewRoomPrice">View More</button>
+                </div>
+              </div>
+            </article>
           </div>
           <div class="item">
-            <div class="col-md-12 wow fadeInUp box20 serChooseBox">
-              <center><img src="img/serChoose2.jpg" class="img-responsive"></center>
-              <header class="entry-header">
-                <h4>Unique And Memorable Stay</h4>
-                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                </h5>
-              </header>
-            </div>
+            <article class="col-md-12 wow fadeInUp box20 ">
+              <div class="roomsList">
+                <img src="img/room2.jpg">
+                <h4>Deluxe Single</h4>
+                <ul class="roomsSerList">
+                  <li>
+                    <img src="img/room.png">
+                    <span>1 Room</span>
+                  </li>
+                  <li>
+                    <img src="img/tv.png">
+                    <span>TV</span>
+                  </li>
+                  <li>
+                    <img src="img/bed.png">
+                    <span>1 Queen Bed</span>
+                  </li>
+                  <li>
+                    <img src="img/minibar.png">
+                    <span>Minibar</span>
+                  </li>
+                  <li>
+                    <img src="img/wifi.png">
+                    <span>Free Wifi</span>
+                  </li>
+                </ul>
+                <div class="ViewInfo">
+                  <div class="RoomPrice">
+                    <span>Starting From ₹</span>
+                    <strong>2500</strong>
+                    <span>/ Night</span>
+                  </div>
+                  <button type="button" class="ViewRoomPrice">View More</button>
+                </div>
+              </div>
+            </article>
           </div>
           <div class="item">
-            <div class="col-md-12 wow fadeInUp box20 serChooseBox">
-              <center><img src="img/serChoose3.jpg" class="img-responsive"></center>
-              <header class="entry-header">
-                <h4>Unique And Memorable Stay</h4>
-                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                </h5>
-              </header>
-            </div>
+            <article class="col-md-12 wow fadeInUp box20 ">
+              <div class="roomsList">
+                <img src="img/room3.jpg">
+                <h4>Luxary Deluxe Room</h4>
+                <ul class="roomsSerList">
+                  <li>
+                    <img src="img/room.png">
+                    <span>1 Room</span>
+                  </li>
+                  <li>
+                    <img src="img/tv.png">
+                    <span>TV</span>
+                  </li>
+                  <li>
+                    <img src="img/bed.png">
+                    <span>1 Queen Bed</span>
+                  </li>
+                  <li>
+                    <img src="img/minibar.png">
+                    <span>Minibar</span>
+                  </li>
+                  <li>
+                    <img src="img/wifi.png">
+                    <span>Free Wifi</span>
+                  </li>
+                </ul>
+                <div class="ViewInfo">
+                  <div class="RoomPrice">
+                    <span>Starting From ₹</span>
+                    <strong>5000</strong>
+                    <span>/ Night</span>
+                  </div>
+                  <button type="button" class="ViewRoomPrice">View More</button>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-
-  <section class="serChooseAbout">
+  <section class="feedback">
     <div class="container">
       <div class="row wow fdeInUp sliderOwn1">
-        <div class="col-md-8">
-          <h2>
-            About <br />
-            Shrya Hotal & Resort
-          </h2>
-          <h5>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
-          </h5>
-          <button type="button" class="serChooseAboutBtn">Book Now</button>
-        </div>
-        <div class="col-md-4">
-          <img src="img/serChooseAbout.jpg">
+        <h2>
+          Your <br /> FeedBack
+        </h2>
+        <div id="feedbackSlider">
+          <div class="item">
+            <article class="col-md-12 wow fadeInRight box20 ">
+              <div class="FeedBackBox">
+                <div class="FeedBackLeft">
+                  <img src="img/user1.jpg">
+                </div>
+                <div class="FeedBackRight">
+                  <strong>Prashant Chauhan</strong>
+                  <img src="img/rating3.png">
+                  <span>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s.
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="item">
+            <article class="col-md-12 wow fadeInRight box20 ">
+              <div class="FeedBackBox">
+                <div class="FeedBackLeft">
+                  <img src="img/user2.jpg">
+                </div>
+                <div class="FeedBackRight">
+                  <strong>Gyan Sinha</strong>
+                  <img src="img/rating2.png">
+                  <span>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s.
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-
-  <section class="expBox">
+  <section class="OurBlogs">
     <div class="container">
       <div class="row wow fdeInUp sliderOwn1">
-        <ul>
+        <h2>
+          Our <br /> Blogs
+        </h2>
+        <ul class="blogList">
           <li>
-            <strong>05</strong>
-            <span>Years of experiance</span>
+            <div class="blogListImg">
+              <img src="img/blog1.jpg">
+            </div>
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry...
+            </span>
           </li>
           <li>
-            <strong>700+</strong>
-            <span>Saisfied Customer</span>
+            <div class="blogListImg">
+              <img src="img/blog2.jpg">
+            </div>
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry...
+            </span>
           </li>
           <li>
-            <strong>20+</strong>
-            <span>Number of Rooms</span>
+            <div class="blogListImg">
+              <img src="img/blog3.jpg">
+            </div>
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry...
+            </span>
+          </li>
+          <li>
+            <div class="blogListImg">
+              <img src="img/blog4.jpg">
+            </div>
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry...
+            </span>
+          </li>
+          <li>
+            <div class="blogListImg">
+              <img src="img/blog5.jpg">
+            </div>
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry...
+            </span>
+          </li>
+          <li>
+            <div class="blogListImg">
+              <img src="img/blog6.jpg">
+            </div>
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry...
+            </span>
+          </li>
+          <li>
+            <div class="blogListImg">
+              <img src="img/blog7.jpg">
+            </div>
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry...
+            </span>
+          </li>
+          <li>
+            <div class="blogListImg">
+              <img src="img/blog8.jpg">
+            </div>
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry...
+            </span>
           </li>
         </ul>
       </div>
     </div>
   </section>
-
-
-  <section class="OurServices">
-    <div class="container">
-      <div class="row wow fdeInUp sliderOwn1">
-        <h2>
-          Our <br /> Services
-        </h2>
-        <span>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-          make a type specimen book.
-        </span>
-
-        <div id="serviceList">
-          <div class="item">
-            <article class="col-md-12 wow fadeInUp box20 ">
-              <div class="serBoxList">
-                <img src="img/room-service.png">
-                <h4>Room Service</h4>
-                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
-              </div>
-            </article>
-          </div>
-          <div class="item">
-            <article class="col-md-12 wow fadeInUp box20 ">
-              <div class="serBoxList">
-                <img src="img/wifi.png">
-                <h4>Free Wifi</h4>
-                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
-              </div>
-            </article>
-          </div>
-          <div class="item">
-            <article class="col-md-12 wow fadeInUp box20 ">
-              <div class="serBoxList">
-                <img src="img/break-fast.png">
-                <h4>Break Fast</h4>
-                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
-              </div>
-            </article>
-          </div>
-          <div class="item">
-            <article class="col-md-12 wow fadeInUp box20 ">
-              <div class="serBoxList">
-                <img src="img/dinner.png">
-                <h4>Dinner</h4>
-                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
 
 
 
