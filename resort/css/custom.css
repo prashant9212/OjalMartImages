@@ -2489,14 +2489,73 @@ line-height: 16px;
     width: 100%;
     padding: 30px 0 0;
 }
-
 .contactBoxForm ul .inputbtn .contactbtn {
     background-color: #b95c47;
     color: #fff;
     border: 1px solid #b95c47;
 }
-
-
+.MapAddressBox{
+    padding: 60px 0px;
+}
+.MapAddressBox h2{
+    font-size: 28px;
+}
+.MapAddressBox h4{
+    font-size: 16px;
+    padding: 10px 0px;
+}
+.address{
+    display: block;
+    padding: 0px;
+}
+.address li{
+    display: block;
+    padding:7px 0px;
+}
+.ContactSocial{
+    display: block;
+    padding: 0px;
+}
+.ContactSocial li {
+    display: block;
+    float: left;
+}
+.ContactSocial li a {
+    margin: 6px;
+    background: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px 0px #0000003b;
+    font-size: 18px;
+}
+.MapAddressBox iframe {
+    padding: 10px;
+    background: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 0px #0000003b;
+}
+.StaticPageBox{
+    padding: 40px 0px;
+}
+.StaticPageBox h2{
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+}
+.ContantBox {
+    padding: 40px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin: 25px 0 0;
+    float: left;
+    border: 1px solid #e3e3e3;
+}
+.ContantBox h3 {
+    font-size: 15px;
+    margin: 30px 0 10px;
+}
 
 
 @media screen and (max-height: 450px) {
@@ -2891,6 +2950,140 @@ line-height: 16px;
     width: 100%;
     padding: 40px 40px 15px;
 }
+.OurBlogs h2, .OurRooms h2 {
+    font-size: 26px;
+    padding: 14px;
+    border-left: 2px solid #404040;
+}
+.blogList li {
+    width: 47%;
+}
+.feedback h2 {
+    font-size: 26px;
+    padding: 14px;
+    border-left: 2px solid #fff;
+}
+.serChoose h2, .serChooseAbout h2, .OurServices h2{
+    font-size: 26px;
+    padding: 14px;
+}
+.OurServices span {
+    font-size: 13px;
+    width: 100%;
+    padding: 0px 14px;
+}
+#serviceList {
+    padding: 0px;
+}
+.OurRooms {
+    padding: 60px 0px 0;
+    overflow: hidden;
+}
+.OurBlogs {
+    overflow: hidden;
+    padding: 60px 0px 20px;
+}
+.feedback {
+    padding: 60px 0px 0px;
+    background-color: #1f262e;
+    overflow: hidden;
+}
+.FeedBackLeft {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.FeedBackLeft img {
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px 30px;
+}
+.FeedBackRight {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    color: #c9c9c9;
+    text-align: center;
+}
+.expBox li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 12px;
+    border-left: 3px solid #ffffff;
+    margin: 4px 1%;
+    text-transform: uppercase;
+    font-weight: normal;
+    width: 98%;
+    color: #fff;
+    background: #2d1717;
+}
+.SerAbout {
+    padding: 0px 0px 20px;
+    overflow: hidden;
+}
+.serChooseAbout h5 {
+    padding: 0px 20px;
+}
+.serChooseBox {
+    text-align: center;
+}
+
+.serChoose, .serChooseAbout, .expBox, .OurServices {
+    overflow: hidden;
+}
+.ContactFormLeft {
+    width: 100%;
+    float: left;
+    padding: 0;
+    text-align: center;
+}
+.ContactFormRight {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    margin-top: 0;
+    box-shadow: 0px 0px 12px 0px #0000003b;
+    right: 0;
+}
+.ContactFormRight ul {
+    display: block;
+    padding: 0;
+}
+.ContactFormBtn {
+    padding: 10px 20px;
+}
+.contactBoxForm {
+    padding: 10px 20px 10px;
+    overflow: hidden;
+}
+.contactBoxForm ul li {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin: 2% 1%;
+}
+.contactBoxForm ul li input, .contactBoxForm ul li input:focus, .contactBoxForm ul li textarea, .contactBoxForm ul li textarea:focus {
+    width: 320px;
+    border: 1px solid #b9b9b9;
+}
+.address {
+    padding: 0px 0px 25px;
+}
+.FootMob {
+    width: 50% !important;
+    float: left;
+}
+#home-banner h1 {
+    padding: 80px 0 0 !important;
+}
+.ContactBannerBg, .HomeMainBannerBg {
+    min-height: 230px;
+}
+
 
 
 }

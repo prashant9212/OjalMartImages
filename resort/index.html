@@ -7,7 +7,7 @@
   <title>IHCL | Home</title>
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="shortcut icon" href="#" type="image/x-icon">
+  <link rel="shortcut icon" href="javascript:void(0)" type="image/x-icon">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
@@ -75,35 +75,6 @@
     }
     new WOW().init();
   </script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      document.querySelectorAll('.sidebar .nav-link').forEach(function (element) {
-
-        element.addEventListener('click', function (e) {
-
-          let nextEl = element.nextElementSibling;
-          let parentEl = element.parentElement;
-
-          if (nextEl) {
-            e.preventDefault();
-            let mycollapse = new bootstrap.Collapse(nextEl);
-
-            if (nextEl.classList.contains('show')) {
-              mycollapse.hide();
-            } else {
-              mycollapse.show();
-              // find other submenus with class=show
-              var opened_submenu = parentEl.parentElement.querySelector('.submenu.show');
-              // if it exists, then close all of them
-              if (opened_submenu) {
-                new bootstrap.Collapse(opened_submenu);
-              }
-            }
-          }
-        }); // addEventListener
-      }) // forEach
-    }); 
-  </script>
 </head>
 
 <body class="home">
@@ -135,7 +106,7 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <div class="search-cart-block">
               <div class="cart-notify" style="display:none">
-                <a href="#"></a>
+                <a href="javascript:void(0)"></a>
                 <img src="img/nav.png" class="nav-head" onclick="openNav()" title="Open Menu">
               </div>
             </div>
@@ -145,7 +116,7 @@
               <li><a href="facilities.html">Facilities</a>
               <li><a href="services.html">Services</a>
               <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="#" class="BookNowBtn">Book Now</a></li>
+              <li><a href="javascript:void(0)" class="BookNowBtn">Book Now</a></li>
             </ul>
           </div>
         </div>
@@ -202,10 +173,10 @@
           <div id="ServicesSlider">
             <div class="item">
               <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="#">
+                <a href="javascript:void(0)">
                   <center><img src="img/bedroom.jpg" class="img-responsive"></center>
                 </a>
-                <header class="entry-header"><a href="#">
+                <header class="entry-header"><a href="javascript:void(0)">
                     <h5>Bedrooms</h5>
                   </a>
                 </header>
@@ -213,10 +184,10 @@
             </div>
             <div class="item">
               <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="#">
+                <a href="javascript:void(0)">
                   <center><img src="img/drink.jpg" class="img-responsive"></center>
                 </a>
-                <header class="entry-header"><a href="#">
+                <header class="entry-header"><a href="javascript:void(0)">
                     <h5>Dine & Drink</h5>
                   </a>
                 </header>
@@ -224,10 +195,10 @@
             </div>
             <div class="item">
               <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="#">
+                <a href="javascript:void(0)">
                   <center><img src="img/breakfast.jpg" class="img-responsive"></center>
                 </a>
-                <header class="entry-header"><a href="#">
+                <header class="entry-header"><a href="javascript:void(0)">
                     <h5>Breakfast</h5>
                   </a>
                 </header>
@@ -235,10 +206,10 @@
             </div>
             <div class="item">
               <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="#">
+                <a href="javascript:void(0)">
                   <center><img src="img/bonfire.gif" class="img-responsive"></center>
                 </a>
-                <header class="entry-header"><a href="#">
+                <header class="entry-header"><a href="javascript:void(0)">
                     <h5>Bonfire</h5>
                   </a>
                 </header>
@@ -270,7 +241,7 @@
         <ul class="spofferlist">
           <li>
             <img src="img/check-mark.png" alt="" title="" />
-            Decorated Room roper Air Condition.
+            Decorated Room Proper Air Condition.
           </li>
           <li>
             <img src="img/check-mark.png" alt="" title="" />
@@ -325,7 +296,6 @@
     </div>
   </section>
 
-
   <footer class="bottom-footer">
     <div class="container">
       <div class="row">
@@ -333,8 +303,8 @@
         <div class="col-md-3 col-sm-12 col-xs-12  subcribe-block">
           <h6>About PenIt</h6>
           <p>
-            sapien quis euismod sodales. Nullam in ipsum nibh. Duis vitae nulla at nisl finibus pharetra. Nunc
-            porttitor
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply
+            dummy text...
           </p>
           <ul class="FooterList">
             <li><img src="img/FooterIcon1.jpg"></li>
@@ -343,41 +313,39 @@
           </ul>
         </div>
 
-        <div class="col-md-3 col-sm-4 col-xs-4 root-widget">
-          <h6>Services</h6>
+        <div class="col-md-3 col-sm-4 col-xs-4 root-widget FootMob">
+          <h6>Information</h6>
           <ul>
-            <li><a href="#">Services 1</a></li>
-            <li><a href="#">Services 2</a></li>
-            <li><a href="#">Services 3</a></li>
-            <li><a href="#">Services 4</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+            <li><a href="refund-policy.html">Refund Policy</a></li>
           </ul>
         </div>
 
-        <div class="col-md-3 col-sm-4 col-xs-4 root-widget">
-          <h6>Follow with Us</h6>
+        <div class="col-md-3 col-sm-4 col-xs-4 root-widget FootMob">
+          <h6>Follow Us</h6>
           <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Youtube</a></li>
+            <li><a href="javascript:void(0)">Facebook</a></li>
+            <li><a href="javascript:void(0)">Instagram</a></li>
+            <li><a href="javascript:void(0)">Twitter</a></li>
+            <li><a href="javascript:void(0)">Pinterest</a></li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-4 col-xs-4 root-widget">
-          <h6>Contact</h6>
+          <h6>Contact Us</h6>
           <ul>
-            <li><a href="#">hello@nusswp.com</a></li>
-            <li><a href="#">+91-1234567890</a></li>
-            <li><a href="#">929 Border StreetSatellite Beach, FL 32937</a></li>
+            <li><a href="javascript:void(0)">info@domain.com</a></li>
+            <li><a href="javascript:void(0)">+91-123-456-7890</a></li>
+            <li><a href="javascript:void(0)">929 Gaya, Bihar, India</a></li>
           </ul>
         </div>
-
-
 
       </div>
     </div>
     <div class="col-md-12 footerBt">
       <div class="container">
-        <p class="copyright">Copyright © 2021 by uxper.co</p>
+        <p class="copyright">Copyright © 2024 by Shrey Hotal</p>
       </div>
     </div>
   </footer>
