@@ -1,4 +1,6 @@
-
+body{
+    font-family: "Philosopher" !important;
+}
 a{text-decoration: none !important;}
 .colorBlack{
     color: #000 !important;
@@ -63,8 +65,34 @@ a{text-decoration: none !important;}
     padding: 0px 0;
     position: relative;
     height: auto;
-    min-height: 470px;
+    min-height: 430px;
     background-image: url(../img/bg-1.jpg);
+}
+.ServicesMainBg {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0;
+    position: relative;
+    height: auto;
+    min-height: 430px;
+    background-image: url(../img/bg-services.jpg);
+}
+.ContactMainBg{
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0;
+    position: relative;
+    height: auto;
+    min-height: 430px;
+    background-image: url(../img/bg-contact.jpg);
 }
 .navbar-right {
     float: right !important;
@@ -149,7 +177,7 @@ a{text-decoration: none !important;}
 
 
 .servicesBox h5 {
-    font-size: 14px !important;
+    font-size: 18px !important;
     font-weight: normal;
     background: #1f262e;
     margin: 0;
@@ -176,7 +204,7 @@ a{text-decoration: none !important;}
     text-transform: uppercase;
 }
 .WhatWeDo h6{
-    font-size: 12px !important;
+    font-size: 15px !important;
     text-align: left;
     line-height: 22px;
     text-align: center;
@@ -185,7 +213,7 @@ a{text-decoration: none !important;}
     background-color: #fff;
     overflow: hidden;
     position: absolute;
-    margin-top: -150px;
+    margin-top: -160px;
     box-shadow: 12px 13px 18px 4px #0000003b;
 }
 .FormHeader{
@@ -195,7 +223,7 @@ a{text-decoration: none !important;}
 }
 .FormHeader h4 {
     font-size: 11px;
-    margin: 12px;
+    margin: 12px 0px;
     text-transform: uppercase;
 }
 .FormHeader span {
@@ -239,7 +267,7 @@ a{text-decoration: none !important;}
 }
 .foodSectionLeft {
     float: right;
-    padding:40px 150px 15px;
+    padding:40px 30px 15px 150px;
     border: 2px solid #1f262e;
     border-radius: 5px;
    
@@ -255,7 +283,7 @@ a{text-decoration: none !important;}
     padding: 0px;
 }
 .foodSectionLeft h6 {
-    font-size: 12px !important;
+    font-size: 15px !important;
     text-align: left;
     line-height: 22px;
 }
@@ -329,7 +357,7 @@ padding: 0 0 0px 50px;
     text-transform: uppercase;
 }
 .box15 h6 {
-    font-size: 12px !important;
+    font-size: 15px !important;
     text-align: left;
     line-height: 22px;
 }
@@ -337,7 +365,7 @@ padding: 0 0 0px 50px;
 
 .footerBt {
     border-top: 1px solid #ffffff;
-    background: #b95c47;
+    background: #1d4567;
 }
 
 .FooterList{
@@ -1655,7 +1683,7 @@ text-align: left !important;
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #b9472d;
+    background-color: #153d5f;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -2129,6 +2157,9 @@ text-align: left !important;
     text-transform: uppercase;
     font-weight: normal;
 }
+.serChoose h5 {
+    padding: 0px 0px 10px 60px;
+}
 
 .serChooseAbout {
     padding: 60px 0px;
@@ -2158,7 +2189,7 @@ text-align: left !important;
 
 .expBox {
     padding: 10px 0px;
-    background: #b95c47;
+    background: #1d4567;
 }
 .expBox ul{
     display: inline-block;
@@ -2251,8 +2282,9 @@ line-height: 16px;
     width: 100%;
 }
 .roomsList h4 {
-    font-size: 14px;
+    font-size: 16px;
     margin: 15px 0 10px;
+    font-weight: bold;
 }
 .roomsSerList{
     padding: 0px;
@@ -2272,17 +2304,17 @@ line-height: 16px;
     padding: 10px 0 30px;
 }
 .RoomPrice {
-    font-size: 12px;
+    font-size: 16px;
     color: #fff;
     float: left;
 }
 .RoomPrice strong{
     font-size: 12px;
-    color: #b95c47;
+    color: #fff;
 }
 .ViewRoomPrice {
     float: right;
-    background-color: #b95c47;
+    background-color: #1d4567;
     color: #fff;
     font-size: 10px;
     width: 80px;
@@ -2308,7 +2340,7 @@ line-height: 16px;
     background-image: url(../img/feedbackBg.jpg);
     background-size: 100%;
     padding: 10px;
-    border: 1px solid #b95c47;
+    border: 1px solid #1d4567;
     border-radius: 5px;
     overflow: hidden;
     margin: 40px 0 0;
@@ -2388,7 +2420,7 @@ line-height: 16px;
     position: relative;
     height: auto;
     min-height: 470px;
-    background-image: url(../img/contact-bg.jpg);
+    background-image: url(../img/bg-contact.jpg);
 }
 
 .contactBox1 {
@@ -2490,9 +2522,9 @@ line-height: 16px;
     padding: 30px 0 0;
 }
 .contactBoxForm ul .inputbtn .contactbtn {
-    background-color: #b95c47;
+    background-color: #1d4567;
     color: #fff;
-    border: 1px solid #b95c47;
+    border: 1px solid #1d4567;
 }
 .MapAddressBox{
     padding: 60px 0px;
@@ -2556,6 +2588,33 @@ line-height: 16px;
     font-size: 15px;
     margin: 30px 0 10px;
 }
+.home-banner>.container-fluid{
+padding: 0px;
+}
+.home-banner img{
+    width: 100%;
+}
+.HomeFstLeft {
+    float: left;
+    right: 75%;
+    position: relative;
+}
+.HomeFstRight {
+    position: relative;
+    left: 27%;
+}
+.Home-header {
+    color: #a1aaba;
+    text-transform: none;
+    font-weight: 400;
+    background: #1f262e;
+    padding: 5px;
+    border-radius: 0px 0 10px 10px;
+    min-height: 154px;
+}
+.Home-header span {
+ font-size: 11px;
+}
 
 
 @media screen and (max-height: 450px) {
@@ -2580,7 +2639,10 @@ line-height: 16px;
     margin: 0;
     padding: 0;
 }
-.MonNavMain .navbar-header{width: 100%;}
+.MonNavMain .navbar-header{
+    width: 100%;
+    padding: 0px 0px 0 10px;
+}
 .accordionBox button, .accordionBox button:hover, .accordionBox button:active {
     font-size: 16px;
 }
@@ -2930,7 +2992,7 @@ line-height: 16px;
     position: relative;
     box-shadow: 3px 5px 18px 4px #0000003b;
     width: 85%;
-    margin: -110px auto 40px;
+    margin: 0px auto 40px;
 }
 .servicesBox img {
     width: 100% !important;
@@ -3015,7 +3077,7 @@ line-height: 16px;
     font-weight: normal;
     width: 98%;
     color: #fff;
-    background: #2d1717;
+    background: #0b2e4d;
 }
 .SerAbout {
     padding: 0px 0px 20px;
@@ -3080,10 +3142,29 @@ line-height: 16px;
 #home-banner h1 {
     padding: 80px 0 0 !important;
 }
-.ContactBannerBg, .HomeMainBannerBg {
+.ContactBannerBg, .HomeMainBannerBg, .ServicesMainBg, .ContactMainBg {
     min-height: 230px;
 }
+.home-banner img {
+    width: 100%;
+    height: 170px;
+}
 
+.HomeFstRight {
+    position: relative;
+    left: 0;
+}
+.HomeFstLeft {
+    float: left;
+    right: 0;
+    position: relative;
+}
+.servicesBox h5 {
+    font-size: 22px !important;
+}
+.Home-header span {
+    font-size: 15px;
+   }
 
 
 }

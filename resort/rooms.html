@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IHCL | Rooms</title>
+  <title>The Shrey World | Rooms</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="shortcut icon" href="javascript:void(0)" type="image/x-icon">
@@ -16,9 +16,6 @@
   <link href="css/animate.css" rel="stylesheet" media="screen">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link
-    href='https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900|Lato:300,400|Crimson+Text:400,400i,600'
-    rel='stylesheet' type='text/css'>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -102,35 +99,7 @@
     }
     new WOW().init();
   </script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      document.querySelectorAll('.sidebar .nav-link').forEach(function (element) {
 
-        element.addEventListener('click', function (e) {
-
-          let nextEl = element.nextElementSibling;
-          let parentEl = element.parentElement;
-
-          if (nextEl) {
-            e.preventDefault();
-            let mycollapse = new bootstrap.Collapse(nextEl);
-
-            if (nextEl.classList.contains('show')) {
-              mycollapse.hide();
-            } else {
-              mycollapse.show();
-              // find other submenus with class=show
-              var opened_submenu = parentEl.parentElement.querySelector('.submenu.show');
-              // if it exists, then close all of them
-              if (opened_submenu) {
-                new bootstrap.Collapse(opened_submenu);
-              }
-            }
-          }
-        }); // addEventListener
-      }) // forEach
-    }); 
-  </script>
 </head>
 
 <body class="home">
@@ -141,7 +110,7 @@
     <div class="btn-group">
       <a href="index.html" class="sideANav MobNavLi">Home</a>
       <a href="rooms.html" class="sideANav MobNavLi">Rooms</a>
-      <a href="facilities.html" class="sideANav MobNavLi">Facilities</a>
+      <a href="wellness.html" class="sideANav MobNavLi">Wellness</a>
       <a href="services.html" class="sideANav MobNavLi">Services</a>
       <a href="contact.html" class="sideANav MobNavLi">Contact Us</a>
     </div>
@@ -153,7 +122,10 @@
       <div class="container NavBoxCon">
         <div class="col-md-2 MonNavMain">
           <div class="navbar-header">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+            <a class="navbar-brand" href="index.html">
+              <!-- <img src="img/logo.png"> -->
+              <h4>The Shrey World</h4>
+            </a>
             <img src="img/nav.png" class="nav-head mobNav" onclick="openNav()" title="Open Menu">
           </div>
         </div>
@@ -169,7 +141,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.html" class="page-scroll active-on">Home</a></li>
               <li><a href="rooms.html">Rooms</a></li>
-              <li><a href="facilities.html">Facilities</a>
+              <li><a href="wellness.html">Wellness</a>
               <li><a href="services.html">Services</a>
               <li><a href="contact.html">Contact Us</a></li>
               <li><a href="javascript:void(0)" class="BookNowBtn">Book Now</a></li>
@@ -180,9 +152,9 @@
     </nav>
   </header>
 
-  <section id="home-banner" class="HomeMainBannerBg">
+  <section id="home-banner" class="ContactMainBg">
     <div class="container">
-      <h1 class="wow fadeInUp">Shrey Hotal & Resort</h1>
+      <!-- <h1 class="wow fadeInUp">Shrey Hotal & Resort</h1> -->
     </div>
   </section>
 
@@ -449,10 +421,10 @@
       <div class="row">
 
         <div class="col-md-3 col-sm-12 col-xs-12  subcribe-block">
-          <h6>About PenIt</h6>
+          <h6>About Shrey World</h6>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply
-            dummy text...
+            Experience luxury at Shrey’s World which is a prestigious hotel and resort in Kheyadaha, West
+            Bengal, that is sprawled across 10 beautiful bigh land where natural serenity meets opulence...
           </p>
           <ul class="FooterList">
             <li><img src="img/FooterIcon1.jpg"></li>
@@ -464,6 +436,7 @@
         <div class="col-md-3 col-sm-4 col-xs-4 root-widget FootMob">
           <h6>Information</h6>
           <ul>
+            <li><a href="about-us.html">About Us</a></li>
             <li><a href="privacy-policy.html">Privacy Policy</a></li>
             <li><a href="disclaimer.html">Disclaimer</a></li>
             <li><a href="terms-conditions.html">Terms & Conditions</a></li>
@@ -493,7 +466,7 @@
     </div>
     <div class="col-md-12 footerBt">
       <div class="container">
-        <p class="copyright">Copyright © 2024 by Shrey Hotal</p>
+        <p class="copyright">Copyright © 2024 by The Shrey Hotal</p>
       </div>
     </div>
   </footer>

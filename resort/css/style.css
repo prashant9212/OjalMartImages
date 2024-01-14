@@ -133,7 +133,7 @@ p a:hover {
 	/* position: fixed;
 	z-index: 10; */
 	width: 100%;
-	background: #b95c47;
+	background: #1d4567;
 }
 #top-menu {
 	padding: 0px;
@@ -145,7 +145,7 @@ p a:hover {
 	font-size: 26px;
 	font-weight: 300;
 	text-transform: uppercase;
-	padding: 4px;
+	padding: 0px;
 }
 #top-menu.navbar-default {
 	background-color: rgba(231, 231, 231, 0);
@@ -256,7 +256,7 @@ p a:hover {
 	display: none;
 }
 .on {
-	background-color: #b95c47 !important;
+	background-color: #1d4567 !important;
 	padding: 0 !important;
 	position: fixed !important;
 }
@@ -4495,7 +4495,7 @@ article p {
 
 .bottom-footer {
 	padding: 80px 0 0;
-	background: #b95c47;
+	background: #1d4567;
 }
 .bottom-footer .navbar-brand {
 	color: #fff;

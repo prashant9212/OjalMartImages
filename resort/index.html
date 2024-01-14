@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IHCL | Home</title>
+  <title>Welcome | The Shrey World</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="shortcut icon" href="javascript:void(0)" type="image/x-icon">
@@ -19,6 +19,7 @@
   <link
     href='https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900|Lato:300,400|Crimson+Text:400,400i,600'
     rel='stylesheet' type='text/css'>
+  <link href="https://db.onlinewebfonts.com/c/1cf624bf07c42693c595f40a1b9ca564?family=Philosopher" rel="stylesheet">
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -39,6 +40,32 @@
       });
 
       //Owl Slider
+      $("#HomeBanner").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 7000,
+        autoplayHoverPause: true,
+        mouseDrag: true,
+        touchDrag: true,
+        pullDrag: true,
+        dots: false,
+        items: 1,
+        navSpeed: 7000,
+        navigation: false,
+        responsive: {
+          0: {
+            items: 1
+          },
+          767: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        },
+        nav: true
+      });
+
       $("#ServicesSlider").owlCarousel({
         loop: true,
         autoplay: true,
@@ -51,13 +78,12 @@
         items: 4,
         navSpeed: 7000,
         navigation: true,
-        navigationText: ["<img src='img/arrow-left1.png'>", "<img src='img/arrow-right1.png'>"],
         responsive: {
           0: {
-            items: 1
+            items: 2
           },
           767: {
-            items: 1
+            items: 2
           },
           1000: {
             items: 4
@@ -85,7 +111,7 @@
     <div class="btn-group">
       <a href="index.html" class="sideANav MobNavLi">Home</a>
       <a href="rooms.html" class="sideANav MobNavLi">Rooms</a>
-      <a href="facilities.html" class="sideANav MobNavLi">Facilities</a>
+      <a href="wellness.html" class="sideANav MobNavLi">Wellness</a>
       <a href="services.html" class="sideANav MobNavLi">Services</a>
       <a href="contact.html" class="sideANav MobNavLi">Contact Us</a>
     </div>
@@ -97,7 +123,10 @@
       <div class="container NavBoxCon">
         <div class="col-md-2 MonNavMain">
           <div class="navbar-header">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+            <a class="navbar-brand" href="index.html">
+              <!-- <img src="img/logo.png"> -->
+              <h4>The Shrey World</h4>
+            </a>
             <img src="img/nav.png" class="nav-head mobNav" onclick="openNav()" title="Open Menu">
           </div>
         </div>
@@ -113,7 +142,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.html" class="page-scroll active-on">Home</a></li>
               <li><a href="rooms.html">Rooms</a></li>
-              <li><a href="facilities.html">Facilities</a>
+              <li><a href="wellness.html">Wellness</a>
               <li><a href="services.html">Services</a>
               <li><a href="contact.html">Contact Us</a></li>
               <li><a href="javascript:void(0)" class="BookNowBtn">Book Now</a></li>
@@ -124,9 +153,25 @@
     </nav>
   </header>
 
-  <section id="home-banner" class="HomeMainBannerBg">
-    <div class="container">
-      <h1 class="wow fadeInUp">Shrey Hotal & Resort</h1>
+  <section class="home-banner">
+    <div class="container-fluid">
+      <div id="HomeBanner">
+        <div class="item">
+          <a href="javascript:void(0)">
+            <img src="img/HomeBanner1.jpg" class="img-responsive">
+          </a>
+        </div>
+        <div class="item">
+          <a href="javascript:void(0)">
+            <img src="img/HomeBanner2.jpg" class="img-responsive">
+          </a>
+        </div>
+        <div class="item">
+          <a href="javascript:void(0)">
+            <img src="img/HomeBanner3.jpg" class="img-responsive">
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -134,10 +179,79 @@
   <section id="from-blog" class="servicesBox">
     <div class="container">
       <div class="row wow fdeInUp sliderOwn1">
-        <div class="col-md-3">
+        <div class="col-md-9 HomeFstRight">
+          <div class="WhatWeDo">
+            <h2>What Shrey’s Does</h2>
+            <h6>
+              <b>The Shrey's World:</b> Where Comfort Meets Joy! Cozy stays, delightful dining, pools, spas, bonfires,
+              and
+              more. Beyond with concierge, room service, and fun activities. Your outdoor stay is special with Shrey's
+              way whether you are family or future family!
+            </h6>
+          </div>
+          <div id="ServicesSlider">
+            <div class="item">
+              <article class="col-md-12 wow fadeInLeft box20 ">
+                <a href="javascript:void(0)">
+                  <center><img src="img/bedroom.jpg" class="img-responsive"></center>
+                </a>
+                <header class="Home-header">
+                  <h5>Bedrooms</h5>
+                  <span>
+                    Within the walls of Shrey’s delux room there is a color of passion and every heartbeat echoes a love
+                    story of comfort with a Queen-Sized Bed.
+                  </span>
+                </header>
+              </article>
+            </div>
+            <div class="item">
+              <article class="col-md-12 wow fadeInLeft box20 ">
+                <a href="javascript:void(0)">
+                  <center><img src="img/drink.jpg" class="img-responsive"></center>
+                </a>
+                <header class="Home-header">
+                  <h5>Dine & Drink</h5>
+                  <span>
+                    A feast of delightful moments by blending emotions like a well-crafted menu of cheers and bites to
+                    the multi tastes of togetherness and the endless flavours of Shrey’s Love.
+                  </span>
+                </header>
+              </article>
+            </div>
+            <div class="item">
+              <article class="col-md-12 wow fadeInLeft box20 ">
+                <a href="javascript:void(0)">
+                  <center><img src="img/breakfast.jpg" class="img-responsive"></center>
+                </a>
+                <header class="Home-header">
+                  <h5>Breakfast</h5>
+                  <span>
+                    Good Morning is a sunrise of warmth that Shrey’s World share as breakfast with every bite, a
+                    delicious symphony of affection that freely given.
+                  </span>
+                </header>
+              </article>
+            </div>
+            <div class="item">
+              <article class="col-md-12 wow fadeInLeft box20 ">
+                <a href="javascript:void(0)">
+                  <center><img src="img/bonfire.gif" class="img-responsive"></center>
+                </a>
+                <header class="Home-header">
+                  <h5>Bonfire</h5>
+                  <span>
+                    Beneath starlit skies with Shrey’s laughter and dances in bonfire flames that sparking joy and
+                    mirroring our warm hearts because when the fire glows the togetherness finds love more.
+                  </span>
+                </header>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 HomeFstLeft">
           <div class="enquiryform">
             <div class="FormHeader">
-              <h4>Hotal Booking Now</h4>
+              <h4>For Shrey’s World Luxury – Book Now!</h4>
               <span>Online Reservation</span>
             </div>
             <div class="FormContent">
@@ -161,63 +275,6 @@
             </div>
           </div>
         </div>
-        <div class="col-md-9">
-          <div class="WhatWeDo">
-            <h2>What We Do</h2>
-            <h6>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
-            </h6>
-          </div>
-          <div id="ServicesSlider">
-            <div class="item">
-              <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="javascript:void(0)">
-                  <center><img src="img/bedroom.jpg" class="img-responsive"></center>
-                </a>
-                <header class="entry-header"><a href="javascript:void(0)">
-                    <h5>Bedrooms</h5>
-                  </a>
-                </header>
-              </article>
-            </div>
-            <div class="item">
-              <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="javascript:void(0)">
-                  <center><img src="img/drink.jpg" class="img-responsive"></center>
-                </a>
-                <header class="entry-header"><a href="javascript:void(0)">
-                    <h5>Dine & Drink</h5>
-                  </a>
-                </header>
-              </article>
-            </div>
-            <div class="item">
-              <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="javascript:void(0)">
-                  <center><img src="img/breakfast.jpg" class="img-responsive"></center>
-                </a>
-                <header class="entry-header"><a href="javascript:void(0)">
-                    <h5>Breakfast</h5>
-                  </a>
-                </header>
-              </article>
-            </div>
-            <div class="item">
-              <article class="col-md-12 wow fadeInLeft box20 ">
-                <a href="javascript:void(0)">
-                  <center><img src="img/bonfire.gif" class="img-responsive"></center>
-                </a>
-                <header class="entry-header"><a href="javascript:void(0)">
-                    <h5>Bonfire</h5>
-                  </a>
-                </header>
-              </article>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
@@ -231,25 +288,25 @@
       </div>
       <div class="col-md-7 foodSectionLeft wow fadeInRight">
         <h5>
-          Best Foods
+          Savor The Shrey’s World: Where Food Meets Luxury
           <img src="img/foodIcon.png" class="foodIcon wow fadeInLeft">
         </h5>
         <h6>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-          industry's standard dummy...
+          Our skilled chefs prioritize exceptional taste and balance flavour for a delightful dining experience by using
+          fresh, high-quality ingredients, and artful presentation enhances overall enjoyment.
         </h6>
         <ul class="spofferlist">
           <li>
             <img src="img/check-mark.png" alt="" title="" />
-            Decorated Room Proper Air Condition.
+            Flavorful
           </li>
           <li>
             <img src="img/check-mark.png" alt="" title="" />
-            School Gym, Spa Facilities
+            Well-Prepared
           </li>
           <li>
             <img src="img/check-mark.png" alt="" title="" />
-            24 Hour Room Services
+            Widely Appreciated Cuisines
           </li>
         </ul>
         <button type="button" class="buttonSub">Details</button>
@@ -266,25 +323,25 @@
             <h5>Special Offers</h5>
           </header>
           <h6>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy...
+            Indulge in Shrey’s World deluxe rooms – spacious retreats with stunning views, premium furnishings, and
+            cutting-edge tech features that elevate your stay to a new level of luxury in terms of…
           </h6>
           <ul class="spofferlist">
             <li>
               <img src="img/check-mark.png" alt="" title="" />
-              Decorated Room roper Air Condition.
+              Cleanliness
             </li>
             <li>
               <img src="img/check-mark.png" alt="" title="" />
-              School Gym, Spa Facilities
+              Comfort
             </li>
             <li>
               <img src="img/check-mark.png" alt="" title="" />
-              24 Hour Room Services
+              Adequate Space
             </li>
             <li>
               <img src="img/check-mark.png" alt="" title="" />
-              1500 Per Night
+              Modern Amenities (such as Wi-Fi, TV, and air conditioning)
             </li>
           </ul>
           <button type="button" class="buttonSub">Submit</button>
@@ -301,10 +358,10 @@
       <div class="row">
 
         <div class="col-md-3 col-sm-12 col-xs-12  subcribe-block">
-          <h6>About PenIt</h6>
+          <h6>About Shrey World</h6>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply
-            dummy text...
+            Experience luxury at Shrey’s World which is a prestigious hotel and resort in Kheyadaha, West
+            Bengal, that is sprawled across 10 beautiful bigh land where natural serenity meets opulence...
           </p>
           <ul class="FooterList">
             <li><img src="img/FooterIcon1.jpg"></li>
@@ -316,6 +373,7 @@
         <div class="col-md-3 col-sm-4 col-xs-4 root-widget FootMob">
           <h6>Information</h6>
           <ul>
+            <li><a href="about-us.html">About Us</a></li>
             <li><a href="privacy-policy.html">Privacy Policy</a></li>
             <li><a href="disclaimer.html">Disclaimer</a></li>
             <li><a href="terms-conditions.html">Terms & Conditions</a></li>
@@ -345,7 +403,7 @@
     </div>
     <div class="col-md-12 footerBt">
       <div class="container">
-        <p class="copyright">Copyright © 2024 by Shrey Hotal</p>
+        <p class="copyright">Copyright © 2024 by The Shrey Hotal</p>
       </div>
     </div>
   </footer>
