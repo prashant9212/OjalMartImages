@@ -3010,7 +3010,7 @@ padding: 0px;
 }
 .foodSectionLeft {
     width: 100%;
-    padding: 40px 40px 15px;
+    padding: 40px 20px 15px;
 }
 .OurBlogs h2, .OurRooms h2 {
     font-size: 26px;
@@ -3164,8 +3164,21 @@ padding: 0px;
 }
 .Home-header span {
     font-size: 15px;
-   }
-
+}
+.footerBt, .footerBt .container{
+    padding: 0px;
+}
+.serChoose h5 {
+    padding: 0px 0px 10px 29px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.MapAddressBox h2 {
+    font-size: 22px;
+}
+hr{
+    margin: 0px;
+}
 
 }
   
