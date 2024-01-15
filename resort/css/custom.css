@@ -94,6 +94,32 @@ a{text-decoration: none !important;}
     min-height: 430px;
     background-image: url(../img/bg-contact.jpg);
 }
+.RoomMainBg{
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0;
+    position: relative;
+    height: auto;
+    min-height: 430px;
+    background-image: url(../img/bg-room.jpg);
+}
+.WellnessMainBg{
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0;
+    position: relative;
+    height: auto;
+    min-height: 430px;
+    background-image: url(../img/bg-wellness.jpg);
+}
 .navbar-right {
     float: right !important;
     margin-right: -15px;
@@ -213,7 +239,7 @@ a{text-decoration: none !important;}
     background-color: #fff;
     overflow: hidden;
     position: absolute;
-    margin-top: -160px;
+    margin-top: -150px;
     box-shadow: 12px 13px 18px 4px #0000003b;
 }
 .FormHeader{
@@ -364,7 +390,7 @@ padding: 0 0 0px 50px;
 
 
 .footerBt {
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #3c668b;
     background: #1d4567;
 }
 
@@ -2133,6 +2159,11 @@ text-align: left !important;
 }
 .serChooseBox .entry-header {
     padding: 0px 20px;
+    text-align: center;
+}
+.serChooseHead {
+    padding: 0px 0px 10px 60px;
+    font-size: 15px;
 }
 .serChooseBox h4 {
     font-size: 17px;
@@ -2140,7 +2171,7 @@ text-align: left !important;
     margin: 16px 0;
 }
 .serChooseBox h5 {
-    font-size: 12px;
+    font-size: 13px;
     color: #000;
     margin: 0;
     line-height: 18px;
@@ -2157,10 +2188,6 @@ text-align: left !important;
     text-transform: uppercase;
     font-weight: normal;
 }
-.serChoose h5 {
-    padding: 0px 0px 10px 60px;
-}
-
 .serChooseAbout {
     padding: 60px 0px;
     background: #f7f7f7;
@@ -2174,7 +2201,7 @@ text-align: left !important;
     font-weight: normal;
 }
 .serChooseAbout h5 {
-    font-size: 14px;
+    font-size: 15px;
     padding: 0px 50px;
     line-height: 20px;
     text-align: justify;
@@ -2227,7 +2254,7 @@ text-align: left !important;
     font-weight: normal;
 }
 .OurServices span {
-    font-size: 13px;
+    font-size: 15px;
     width: 60%;
     padding: 0px 50px;
 }
@@ -2253,9 +2280,10 @@ width: 60px;
     font-size: 18px;
     padding: 40px 0 0;
 }
-.serBoxList h5{
-font-size: 13px;
-line-height: 16px;
+.serBoxList h5 {
+    font-size: 15px;
+    line-height: 16px;
+    color: #858585;
 }
 
 .OurRooms{
@@ -2370,7 +2398,7 @@ line-height: 16px;
     width: 100%;
     float: inline-end;
     padding: 20px 0;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 20px;
 }
 .OurBlogs{
@@ -2405,7 +2433,7 @@ line-height: 16px;
 .blogList li span {
     padding: 20px 2px;
     float: left;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 20px;
 }
 
@@ -2419,7 +2447,7 @@ line-height: 16px;
     padding: 0px 0;
     position: relative;
     height: auto;
-    min-height: 470px;
+    min-height: 430px;
     background-image: url(../img/bg-contact.jpg);
 }
 
@@ -2433,7 +2461,7 @@ line-height: 16px;
     padding: 0px 160px 0px 0px;
 }
 .ContactFormLeft h4 {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 22px;
     padding: 20px 0px;
 }
@@ -2462,7 +2490,7 @@ line-height: 16px;
     text-transform: uppercase;
 }
 .ContactFormRight ul li h4 {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 22px;
 }
 
@@ -2615,6 +2643,67 @@ padding: 0px;
 .Home-header span {
  font-size: 11px;
 }
+#myCarousel .item img{
+padding: 0px !important;
+}
+.WelmessMain{
+    text-align: center;
+    padding: 60px 0px 30px;
+}
+.WelmessMain h2{
+    font-size: 32px;
+}
+.WelmessMain h3 {
+    font-size: 15px;
+    font-weight: normal;
+}
+.WelmessSpa {
+    padding: 40px 0px;
+}
+.WelmessSpa img{
+    width: 100%;
+}
+.WelmessSpa h2 {
+    font-size: 24px;
+    padding: 40px 0 0;
+}
+.WelmessSpa h3 {
+    font-size: 15px;
+    font-weight: normal;
+}
+.WellnessBg{
+    background: #f7f7f7;
+}
+.WelmessSlideBox{
+    padding: 30px 0px 10px;
+}
+.WelmessSlideBox h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.WelmessSlideBox h2::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: #bfbfbf;
+    left: 30%;
+    bottom: -7px;
+}
+.WelnessHeader h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.WelnessHeader span{
+    font-size: 15px;
+}
+#wellnessSlider img{
+    border:8px solid #1D4567
+}
+#wellnessSlider .owl-item{
+    padding:0px 15px;
+}
 
 
 @media screen and (max-height: 450px) {
@@ -2661,9 +2750,7 @@ padding: 0px;
     height: 40px;
 }
 .mobpadding0{padding: 0px;}
-#home-banner {
-    height: 250px !important;
-}
+
 #our-work-block .works ul li {
     padding: 10px 0 !important;
 }
@@ -2991,8 +3078,9 @@ padding: 0px;
     overflow: hidden;
     position: relative;
     box-shadow: 3px 5px 18px 4px #0000003b;
-    width: 85%;
+    width: 97%;
     margin: 0px auto 40px;
+    border-radius: 10px;
 }
 .servicesBox img {
     width: 100% !important;
@@ -3142,8 +3230,9 @@ padding: 0px;
 #home-banner h1 {
     padding: 80px 0 0 !important;
 }
-.ContactBannerBg, .HomeMainBannerBg, .ServicesMainBg, .ContactMainBg {
-    min-height: 230px;
+
+#home-banner, .ContactBannerBg, #myCarousel .item img {
+    min-height: 160px !important;
 }
 .home-banner img {
     width: 100%;

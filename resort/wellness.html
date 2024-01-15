@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Shrey World | Refund Policy</title>
+    <title>The Shrey World | Wellness</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="javascript:void(0)" type="image/x-icon">
@@ -30,6 +30,35 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
+        jQuery(document).ready(function ($) {
+            //Owl Slider
+            $("#wellnessSlider").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 7000,
+                autoplayHoverPause: true,
+                mouseDrag: true,
+                touchDrag: true,
+                pullDrag: true,
+                dots: false,
+                items: 3,
+                navSpeed: 7000,
+                navigation: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    767: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 3
+                    }
+                },
+                nav: true
+            });
+
+        });
         function openNav() {
             document.getElementById("mySidenav").style.width = "300px";
         }
@@ -38,6 +67,7 @@
         }
         new WOW().init();
     </script>
+
 </head>
 
 <body class="home">
@@ -90,62 +120,134 @@
         </nav>
     </header>
 
-    <section class="StaticPageBox">
+    <section id="home-banner" class="WellnessMainBg">
         <div class="container">
-            <h2 class="wow fadeInUp">Refund Policy</h2>
-            <div class="ContantBox">
-                <h3 class="wow fadeInUp">Heading</h3>
-                <p class="wow fadeInUp">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.
-                </p>
-                <h3 class="wow fadeInUp">Heading</h3>
-                <p class="wow fadeInUp">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.
-                </p>
-                <h3 class="wow fadeInUp">Heading</h3>
-                <p class="wow fadeInUp">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.
-                </p>
-                <h3 class="wow fadeInUp">Heading</h3>
-                <p class="wow fadeInUp">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.
-                </p>
-                <h3 class="wow fadeInUp">Heading</h3>
-                <p class="wow fadeInUp">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.
-                </p>
-                <h3 class="wow fadeInUp">Heading</h3>
-                <p class="wow fadeInUp">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.
-                </p>
-                <h3 class="wow fadeInUp">Heading</h3>
-                <p class="wow fadeInUp">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.
-                </p>
-                <h3 class="wow fadeInUp">Heading</h3>
-                <p class="wow fadeInUp">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.
-                </p>
+            <!-- <h1 class="wow fadeInUp">Shrey Hotal & Resort</h1> -->
+        </div>
+    </section>
+
+    <section class="WelmessMain">
+        <div class="container">
+            <h2>Relax at the best Spa</h2>
+            <h3>
+                Experience the divine serene world The Spa. Relax, rejoice and renew with our aroma, ayurvedic, herbal,
+                natural colour healing treatments and yoga
+            </h3>
+        </div>
+    </section>
+
+    <section class="WelmessSpa WellnessBg">
+        <div class="container">
+            <div class="col-md-5">
+                <h2>Relax at the best Spa</h2>
+                <h3>
+                    Experience the divine serene world The Spa. Relax, rejoice and renew with our aroma, ayurvedic,
+                    herbal,
+                    natural colour healing treatments and yoga
+                </h3>
+            </div>
+            <div class="col-md-7">
+                <img src="img/spa.jpg">
             </div>
         </div>
     </section>
 
+    <section class="WelmessSpa">
+        <div class="container">
+            <div class="col-md-7">
+                <img src="img/artGym.jpg">
+            </div>
+            <div class="col-md-5">
+                <h2>State of The Art Gym</h2>
+                <h3>
+                    Ergonomically engaged, The shrey world highlights best in class state of the art Gym., which has a
+                    cardio suite and adequate space for yoga, while extending and free development facilities are there
+                    to keep you fresh and always fit.
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="WelmessSpa WellnessBg">
+        <div class="container">
+            <div class="col-md-5">
+                <h2>Swimming Pool</h2>
+                <h3>
+                    The the shrey world outdoor swimming pool is temperature controlled with comfortable lounge chairs,
+                    under water music and a cafe.
+                </h3>
+            </div>
+            <div class="col-md-7">
+                <img src="img/swimming.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="WelmessSpa">
+        <div class="container">
+            <div class="col-md-7">
+                <img src="img/bonefire.jpg">
+            </div>
+            <div class="col-md-5">
+                <h2>Bonefire</h2>
+                <h3>
+                    The the shrey world outdoor swimming pool is temperature controlled with comfortable lounge chairs,
+                    under water music and a cafe.
+                </h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="WelmessSlideBox WellnessBg">
+        <div class="container">
+            <h2>Taking Care of Your Needs</h2>
+            <div id="wellnessSlider">
+                <div class="item">
+                    <article class="col-md-12 wow fadeInLeft box20 ">
+                        <a href="javascript:void(0)">
+                            <center><img src="img/music.jpg" class="img-responsive"></center>
+                        </a>
+                        <header class="WelnessHeader">
+                            <h5>DJ Music</h5>
+                            <span>
+                                The the shrey world outdoor swimming pool is temperature controlled with comfortable
+                                lounge chairs, under water music and a cafe.
+                            </span>
+                        </header>
+                    </article>
+                </div>
+                <div class="item">
+                    <article class="col-md-12 wow fadeInLeft box20 ">
+                        <a href="javascript:void(0)">
+                            <center><img src="img/fishing.jpg" class="img-responsive"></center>
+                        </a>
+                        <header class="WelnessHeader">
+                            <h5>Fishing</h5>
+                            <span>
+                                The the shrey world outdoor swimming pool is temperature controlled with comfortable
+                                lounge chairs, under water music and a cafe.
+                            </span>
+                        </header>
+                    </article>
+                </div>
+                <div class="item">
+                    <article class="col-md-12 wow fadeInLeft box20 ">
+                        <a href="javascript:void(0)">
+                            <center><img src="img/table.jpg" class="img-responsive"></center>
+                        </a>
+                        <header class="WelnessHeader">
+                            <h5>Table Tennis</h5>
+                            <span>
+                                The the shrey world outdoor swimming pool is temperature controlled with comfortable
+                                lounge chairs, under water music and a cafe.
+                            </span>
+                        </header>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="bottom-footer">
         <div class="container">
