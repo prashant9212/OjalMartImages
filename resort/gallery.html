@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Shrey World | Wellness</title>
+    <title>The Shrey World | Gallery</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="javascript:void(0)" type="image/x-icon">
@@ -29,45 +29,16 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script>
-        jQuery(document).ready(function ($) {
-            //Owl Slider
-            $("#wellnessSlider").owlCarousel({
-                loop: true,
-                autoplay: true,
-                autoplayTimeout: 7000,
-                autoplayHoverPause: true,
-                mouseDrag: true,
-                touchDrag: true,
-                pullDrag: true,
-                dots: false,
-                items: 3,
-                navSpeed: 7000,
-                navigation: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    767: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 3
-                    }
-                },
-                nav: true
-            });
-
-        });
         function openNav() {
             document.getElementById("mySidenav").style.width = "300px";
         }
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
-        new WOW().init();
     </script>
-
 </head>
 
 <body class="home">
@@ -122,12 +93,6 @@
         </nav>
     </header>
 
-    <section id="home-banner" class="WellnessMainBg">
-        <div class="container">
-            <!-- <h1 class="wow fadeInUp">Shrey Hotal & Resort</h1> -->
-        </div>
-    </section>
-
     <section class="WelmessMain">
         <div class="container">
             <h2>In the Shrey's World, Relaxation is an Art</h2>
@@ -141,124 +106,87 @@
         </div>
     </section>
 
-    <section class="WelmessSpa WellnessBg">
+    <section>
         <div class="container">
-            <div class="col-md-5">
-                <h2>Pamper Yourself at Shrey's Spa</h2>
-                <h3>
-                    Immerse yourself in the epitome of tranquility at our spa – where every step is a promise of
-                    serenity but the space isn't just aesthetically pleasing; it's a sensory symphony. Picture a haven
-                    where visuals soothe, aromas enchant, and each breath leads you both men and women to pure
-                    relaxation, where your holiday begins.
-                </h3>
+            <div class="TabNav">
+                <ul class="nav nav-tabs GalUnList">
+                    <li class="active"><a data-toggle="tab" href="#menu1">Suites & Rooms</a></li>
+                    <li><a data-toggle="tab" href="#menu2">Facilities</a></li>
+                    <li><a data-toggle="tab" href="#menu3">Hotel Images</a></li>
+                </ul>
             </div>
-            <div class="col-md-7">
-                <img src="img/spa.jpg">
-            </div>
-        </div>
-    </section>
-
-    <section class="WelmessSpa">
-        <div class="container">
-            <div class="col-md-7">
-                <img src="img/artGym.jpg">
-            </div>
-            <div class="col-md-5">
-                <h2>Shrey's Fitness Fanatic Dairy</h2>
-                <h3>
-                    Continuing your fitness journey to immaculate spaces, pristine showers, and restrooms that redefine
-                    cleanliness while elevating your workout experience with a kaleidoscope of classes and personalized
-                    training options and sculpting your fitness adventure with structure and style. Because Shrey's gym
-                    isn't just a space—it's your sanctuary for self-improvement.
-                </h3>
-            </div>
-        </div>
-    </section>
-
-    <section class="WelmessSpa WellnessBg">
-        <div class="container">
-            <div class="col-md-5">
-                <h2>In Shrey's World, Every Day Is a Pool Party</h2>
-                <h3>
-                    Our Fresh-infused oasis elevates your relaxation and promises a lavish escape from the woes of
-                    sensitive skin, baby eyes, and other pesky side effects associated with chemical-laden and
-                    sun-kissed water alternatives, so dive into the crystal-clear difference with Shrey's World.
-                </h3>
-            </div>
-            <div class="col-md-7">
-                <img src="img/swimming.jpg">
-            </div>
-        </div>
-    </section>
-
-    <section class="WelmessSpa">
-        <div class="container">
-            <div class="col-md-7">
-                <img src="img/bonefire.jpg">
-            </div>
-            <div class="col-md-5">
-                <h2>Ignite the Night with Shrey's Flames</h2>
-                <h3>
-                    Bonfires aren't just about light, heat, and cooking food, they're the heartbeat of unforgettable
-                    moments, a gathering of stories, laughter, and a sense of community. These dancing flames cast a
-                    spell on your soul while bringing comfort and a morale boost, so let the bonfire tales begin with
-                    Shrey's.
-                </h3>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="WelmessSlideBox WellnessBg">
-        <div class="container">
-            <h2>A Stay That Cares Because Guest Comfort is Shrey's Commitment</h2>
-            <div id="wellnessSlider">
-                <div class="item">
-                    <article class="col-md-12 wow fadeInLeft box20 ">
-                        <a href="javascript:void(0)">
-                            <center><img src="img/music.jpg" class="img-responsive"></center>
-                        </a>
-                        <header class="WelnessHeader">
-                            <h5>DJ Music</h5>
-                            <span>
-                                Our DJs are fueled by an undying love for music and a knack for setting the dance floor
-                                ablaze with their passion and energy that create an electric atmosphere. Not only do
-                                they fulfill your musical desires, but they also craft dedicated beats for your loved
-                                ones and all without making a splash on your tranquil moments by the balcony.
-                            </span>
-                        </header>
-                    </article>
+            <div class="tab-content">
+                <div id="menu1" class="tab-pane fade in active">
+                    <ul class="GalList">
+                        <li>
+                            <img src="img/gal1.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal2.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal3.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal4.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal5.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal6.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal7.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal8.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal9.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal10.jpg">
+                        </li>
+                    </ul>
                 </div>
-                <div class="item">
-                    <article class="col-md-12 wow fadeInLeft box20 ">
-                        <a href="javascript:void(0)">
-                            <center><img src="img/fishing.jpg" class="img-responsive"></center>
-                        </a>
-                        <header class="WelnessHeader">
-                            <h5>Fishing</h5>
-                            <span>
-                                Shrey's Fishing Spot isn't just about the variety of fish species or the crystal-clear
-                                waters teeming with oxygen but the ultimate angler's haven, where your fishing desires
-                                come to life with top-notch equipment and a vibe of authentic village living, so catch
-                                the thrill with Shrey's adventure!
-                            </span>
-                        </header>
-                    </article>
+                <div id="menu2" class="tab-pane fade">
+                    <ul class="GalList">
+                        <li>
+                            <img src="img/gal5.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal6.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal7.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal8.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal9.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal10.jpg">
+                        </li>
+                    </ul>
                 </div>
-                <div class="item">
-                    <article class="col-md-12 wow fadeInLeft box20 ">
-                        <a href="javascript:void(0)">
-                            <center><img src="img/table.jpg" class="img-responsive"></center>
-                        </a>
-                        <header class="WelnessHeader">
-                            <h5>Table Tennis</h5>
-                            <span>
-                                Our Sports Garden allows guests to unleash family fun with our complimentary table
-                                tennis, badminton, vast greenery for friendly races, and more. All yours, with no time
-                                constraints and zero extra charges, so take possession playground of joy with Shrey's.
-                            </span>
-                        </header>
-                    </article>
+                <div id="menu3" class="tab-pane fade">
+                    <ul class="GalList">
+                        <li>
+                            <img src="img/gal7.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal8.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal9.jpg">
+                        </li>
+                        <li>
+                            <img src="img/gal10.jpg">
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

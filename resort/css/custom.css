@@ -2366,7 +2366,7 @@ width: 60px;
 }
 .FeedBackBox {
     background-image: url(../img/feedbackBg.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
     padding: 10px;
     border: 1px solid #1d4567;
     border-radius: 5px;
@@ -2704,6 +2704,40 @@ padding: 0px !important;
 #wellnessSlider .owl-item{
     padding:0px 15px;
 }
+
+.GalList{
+    display: inline-block;
+    padding: 0px;
+    margin:0px;
+}
+.GalList li {
+    display: inline-block;
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+.GalList li img{
+    width: 100%;
+}
+.GalUnList{
+    border-bottom: 1px solid #fff;
+    margin: 0 auto !important;
+    width: 480px;
+}
+.GalUnList li a{
+    border: 1px solid #fff !important;
+    padding: 10px 25px;
+    font-size: 18px !important;
+    color: #000 !important;
+    text-transform: capitalize !important;
+}
+.GalUnList li a:hover{
+    background-color: transparent !important;
+}
+.GalUnList li.active a{
+    border-bottom: 2px solid #404040 !important;
+}
+
 
 
 @media screen and (max-height: 450px) {
@@ -3267,6 +3301,13 @@ padding: 0px !important;
 }
 hr{
     margin: 0px;
+}
+.GalUnList {
+    width: 100%;
+}
+.GalUnList li a {
+    padding: 10px 18px;
+    font-size: 14px !important;
 }
 
 }
