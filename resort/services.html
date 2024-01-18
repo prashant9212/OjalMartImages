@@ -9,15 +9,13 @@
   <meta name="author" content="">
   <link rel="shortcut icon" href="javascript:void(0)" type="image/x-icon">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-  <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
-  <link href="css/owl.theme.css" rel="stylesheet" media="screen">
-  <link href="css/animate.css" rel="stylesheet" media="screen">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://db.onlinewebfonts.com/c/1cf624bf07c42693c595f40a1b9ca564?family=Philosopher" rel="stylesheet">
   <script src="js/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
@@ -29,77 +27,7 @@
   <script src="js/jquery.waypoints.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   <script src="js/wow.min.js"></script>
-  <script>
-    jQuery(document).ready(function ($) {
-      $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-      });
-
-      //Owl Slider
-      $("#serChoose").owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 7000,
-        autoplayHoverPause: true,
-        mouseDrag: true,
-        touchDrag: true,
-        pullDrag: true,
-        dots: false,
-        items: 3,
-        navSpeed: 7000,
-        navigation: true,
-        navigationText: ["<img src='img/arrow-left1.png'>", "<img src='img/arrow-right1.png'>"],
-        responsive: {
-          0: {
-            items: 1
-          },
-          767: {
-            items: 1
-          },
-          1000: {
-            items: 3
-          }
-        },
-        nav: true
-      });
-
-      $("#serviceList").owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 7000,
-        autoplayHoverPause: true,
-        mouseDrag: true,
-        touchDrag: true,
-        pullDrag: true,
-        dots: false,
-        items: 4,
-        navSpeed: 7000,
-        navigation: true,
-        navigationText: ["<img src='img/arrow-left1.png'>", "<img src='img/arrow-right1.png'>"],
-        responsive: {
-          0: {
-            items: 2
-          },
-          767: {
-            items: 2
-          },
-          1000: {
-            items: 4
-          }
-        },
-        nav: true
-      });
-
-    });
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "300px";
-    }
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-    new WOW().init();
-  </script>
+  <script src="js/custom.js"></script>
 </head>
 
 <body class="home">
@@ -108,15 +36,15 @@
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="btn-group">
-        <a href="index.html" class="sideANav MobNavLi">Home</a>
-        <a href="rooms.html" class="sideANav MobNavLi">Rooms</a>
-        <a href="wellness.html" class="sideANav MobNavLi">Wellness</a>
-        <a href="services.html" class="sideANav MobNavLi">Services</a>
-        <a href="gallery.html" class="sideANav MobNavLi">Gallery</a>
-        <a href="contact.html" class="sideANav MobNavLi">Contact Us</a>
+      <a href="index.html" class="sideANav MobNavLi">Home</a>
+      <a href="rooms.html" class="sideANav MobNavLi">Rooms</a>
+      <a href="wellness.html" class="sideANav MobNavLi">Wellness</a>
+      <a href="services.html" class="sideANav MobNavLi">Services</a>
+      <a href="gallery.html" class="sideANav MobNavLi">Gallery</a>
+      <a href="contact.html" class="sideANav MobNavLi">Contact Us</a>
     </div>
-</div>
-<!-----sideNav---->
+  </div>
+  <!-----sideNav---->
 
 
   <header id="menutop">
