@@ -28,9 +28,35 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".SubmitBtn").click(function () {
+                //$(".thankuPopup").toggle();
+                $("#thankuPopup").show();
+            });
+            $(".CloseBtn").click(function () {
+                //$(".thankuPopup").toggle();
+                $("#thankuPopup").hide();
+            });
+        });
+    </script>
 </head>
 
 <body class="home">
+
+
+    <!----Popup--->
+        <div class="PopupContainer" id="thankuPopup">
+            <div class="container">
+                <div class="PopupBox">
+                    <p class="CloseBtn">X</p>
+                    <h2>Thank You</h2>
+                    <span>Your application is submitted successfully.</span>
+                </div>
+            </div>
+        </div>
+    <!----Popup--->
+
 
     <!-----sideNav---->
     <div id="mySidenav" class="sidenav">
@@ -163,7 +189,7 @@
                         <textarea rows="8" placeholder="Message"></textarea>
                     </li>
                     <li class="inputbtn">
-                        <button type="button" class="contactbtn">Send Message</button>
+                        <button type="button" class="contactbtn SubmitBtn">Send Message</button>
                     </li>
 
                 </ul>

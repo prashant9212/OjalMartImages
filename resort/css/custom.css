@@ -2737,8 +2737,46 @@ padding: 0px !important;
 .GalUnList li.active a{
     border-bottom: 2px solid #404040 !important;
 }
-
-
+.PopupContainer {
+    position: fixed;
+    z-index: 9999999;
+    width: 100%;
+    height: 100%;
+    background: #000000eb;
+}
+.PopupBox {
+    width: 400px;
+    height: auto;
+    min-height: 250px;
+    margin: 15% auto 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.PopupBox h2 {
+    margin: 10px 0 20px;
+    font-size: 24px;
+}
+.PopupBox span {
+    margin: 0;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.CloseBtn {
+    background: #ff9797;
+    width: 40px;
+    height: 40px;
+    margin: -70px 87%;
+    position: absolute;
+    padding: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -3313,6 +3351,14 @@ hr{
     border-bottom: 2px solid #1d4567 !important;
     font-weight: bold !important;
     color: #1d4567 !important;
+}
+
+.PopupBox {
+    width: 100%;
+    margin: 25% auto 0;
+}
+.CloseBtn {
+    margin: -70px 82%;
 }
 
 }
